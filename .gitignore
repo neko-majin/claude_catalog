@@ -1,0 +1,7 @@
+# CI が一時生成する公開用ディレクトリ
+public/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+node_modules/

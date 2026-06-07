@@ -1,0 +1,87 @@
+[
+  {
+    "name": "docx",
+    "description": "Word文書の作成・編集・読み取り",
+    "category": "document"
+  },
+  {
+    "name": "pdf",
+    "description": "PDFの作成・結合・分割・抽出・OCR",
+    "category": "document"
+  },
+  {
+    "name": "pptx",
+    "description": "PowerPointスライドの作成・編集・抽出",
+    "category": "document"
+  },
+  {
+    "name": "xlsx",
+    "description": "Excelの作成・編集・整形・集計",
+    "category": "document"
+  },
+  {
+    "name": "skill-creator",
+    "description": "スキルの新規作成・改善・評価",
+    "category": "development"
+  },
+  {
+    "name": "mcp-builder",
+    "description": "MCPサーバの設計・構築支援",
+    "category": "development"
+  },
+  {
+    "name": "web-artifacts-builder",
+    "description": "Webアーティファクト(HTML等)の構築",
+    "category": "development"
+  },
+  {
+    "name": "webapp-testing",
+    "description": "Webアプリのテスト",
+    "category": "testing"
+  },
+  {
+    "name": "frontend-design",
+    "description": "フロントエンドUIのデザイン",
+    "category": "design"
+  },
+  {
+    "name": "canvas-design",
+    "description": "キャンバス上のビジュアルデザイン",
+    "category": "design"
+  },
+  {
+    "name": "algorithmic-art",
+    "description": "アルゴリズミック/ジェネラティブアート生成",
+    "category": "design"
+  },
+  {
+    "name": "theme-factory",
+    "description": "テーマ・配色の生成",
+    "category": "design"
+  },
+  {
+    "name": "brand-guidelines",
+    "description": "ブランドガイドラインの作成・適用",
+    "category": "design"
+  },
+  {
+    "name": "doc-coauthoring",
+    "description": "ドキュメントの共同執筆",
+    "category": "productivity"
+  },
+  {
+    "name": "internal-comms",
+    "description": "社内コミュニケーション文書の作成",
+    "category": "productivity"
+  },
+  {
+    "name": "slack-gif-creator",
+    "description": "Slack向けGIFの作成",
+    "category": "design"
+  },
+  {
+    "name": "claude-api",
+    "description": "Claude API / SDK のリファレンス・実装支援",
+    "category": "development"
+  }
+]

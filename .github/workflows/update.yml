@@ -1,0 +1,66 @@
+name: Update catalog
+
+# 日次（00:00 UTC = 09:00 JST）に公式ソースを取得して再生成・差分記録・Pages公開。
+# 手動実行(workflow_dispatch)でも動く。
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # 生成物・スナップショットのコミット用
+  pages: write      # GitHub Pages 公開用
+  id-token: write   # Pages デプロイ認証用
+
+concurrency:
+  group: catalog-update
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build catalog (公式ソース取得 → index.html 生成 → 差分検出)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API レート制限の緩和
+        run: node build.js
+
+      - name: Commit updated catalog & snapshots (変更時のみ)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html snapshots
+          if git diff --cached --quiet; then
+            echo "変更なし: コミットしません"
+          else
+            git commit -m "chore: update catalog ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Prepare site (公開する単一HTML)
+        run: |
+          mkdir -p public
+          cp index.html public/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

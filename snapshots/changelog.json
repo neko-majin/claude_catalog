@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-06-07",
+    "kind": "baseline",
+    "counts": {
+      "plugin": 222,
+      "skill": 17,
+      "mcp": 7
+    }
+  }
+]

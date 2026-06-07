@@ -1,0 +1,37 @@
+[
+  {
+    "name": "filesystem",
+    "folder": "filesystem",
+    "description": "安全なファイル操作（アクセス制御つき）"
+  },
+  {
+    "name": "fetch",
+    "folder": "fetch",
+    "description": "Webコンテンツの取得とLLM向け変換"
+  },
+  {
+    "name": "git",
+    "folder": "git",
+    "description": "Gitリポジトリの読み取り・検索・操作"
+  },
+  {
+    "name": "memory",
+    "folder": "memory",
+    "description": "ナレッジグラフ型の永続メモリ"
+  },
+  {
+    "name": "sequential-thinking",
+    "folder": "sequentialthinking",
+    "description": "思考の連鎖による動的な問題解決"
+  },
+  {
+    "name": "time",
+    "folder": "time",
+    "description": "時刻・タイムゾーンの変換"
+  },
+  {
+    "name": "everything",
+    "folder": "everything",
+    "description": "プロンプト/リソース/ツールを備えた参照・テスト用サーバー"
+  }
+]
