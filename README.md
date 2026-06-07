@@ -8,6 +8,7 @@
 | `template.html` | 画面の枠（CSS/JS＋手書き解説データ）。`__PLUGINS_JSON__` / `__SKILLS_JSON__` / `__MCPS_JSON__` の差し込み口を持つ |
 | `data/skills_meta.json` | スキルの日本語メタ（name/description/category） |
 | `data/mcp_meta.json` | MCPの日本語メタ（name/folder/description） |
+| `data/desc_ja.json` | プラグイン説明の日本語訳キャッシュ（名前→日本語、222件） |
 | `build.js` | 公式ソース取得＋メタ合成 → `index.html` を生成 |
 | `index.html` | 生成物（配信対象） |
 | `snapshots/` | 差分検出の状態（前回スナップショット `catalog.json` / 履歴 `changelog.json` / バッジ `badges.json`） |
@@ -18,7 +19,7 @@
 ```
 node build.js
 ```
-- **プラグイン**: 公式 `marketplace.json` から毎回取得（最新の222件など）。
+- **プラグイン**: 公式 `marketplace.json` から毎回取得（最新の222件など）。説明は `data/desc_ja.json`（日本語訳キャッシュ）で上書き表示。未翻訳の新規は原文表示＋ビルドログに件数を通知 → `desc_ja.json` に追記。
 - **スキル**: `anthropics/skills` の `/skills` をGitHub APIで取得し、`data/skills_meta.json` の日本語メタを合成。
 - **MCP**: `modelcontextprotocol/servers` の `/src` を取得し、`data/mcp_meta.json` を合成。
 - 公式に**新規追加**された項目はメタ未整備でも自動でカード化（説明は名前で仮表示）し、ビルドログに `NEW ...` と通知 → `data/*meta.json` に日本語説明を追記すればOK。

@@ -78,6 +78,10 @@ async function main() {
     };
   });
 
+  // --- プラグイン説明の日本語キャッシュ（data/desc_ja.json） ---
+  const descJa = JSON.parse(fs.readFileSync("data/desc_ja.json", "utf-8"));
+  const untranslated = plugins.filter(p => !descJa[p.name]).map(p => p.name);
+
   // --- 差分検出（スナップショット比較） ---
   const { badges, changelog } = diffAndRecord([...plugins, ...skills, ...mcps]);
 
@@ -85,14 +89,16 @@ async function main() {
     .replace("__PLUGINS_JSON__", JSON.stringify(plugins))
     .replace("__SKILLS_JSON__", JSON.stringify(skills))
     .replace("__MCPS_JSON__", JSON.stringify(mcps))
+    .replace("__DESC_JA_JSON__", JSON.stringify(descJa))
     .replace("__BADGES_JSON__", JSON.stringify(badges))
     .replace("__CHANGELOG_JSON__", JSON.stringify(changelog));
 
   fs.writeFileSync("index.html", out);
   const internal = plugins.filter(p => p.type === "plugin-internal").length;
   console.log(`built index.html  plugins:${plugins.length}(内${internal}/外${plugins.length - internal}) skills:${skills.length} mcp:${mcps.length}`);
-  if (newSkills.length) console.log(`  NEW skills（日本語メタ未整備・要追記 data/skills_meta.json）: ${newSkills.join(", ")}`);
-  if (newMcps.length) console.log(`  NEW mcp（日本語メタ未整備・要追記 data/mcp_meta.json）: ${newMcps.join(", ")}`);
+  console.log(`  日本語訳キャッシュ desc_ja: ${Object.keys(descJa).length}件 / 未翻訳プラグイン: ${untranslated.length}件`);
+  if (newSkills.length) console.log(`  NEW skills（日本語メタ未整備）: ${newSkills.join(", ")}`);
+  if (newMcps.length) console.log(`  NEW mcp（日本語メタ未整備）: ${newMcps.join(", ")}`);
 }
 
 // 前回スナップショットと比較し、changelog / badges を更新して返す
