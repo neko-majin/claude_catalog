@@ -9,6 +9,7 @@
 | `data/skills_meta.json` | スキルの日本語メタ（name/description/category） |
 | `data/mcp_meta.json` | MCPの日本語メタ（name/folder/description） |
 | `data/desc_ja.json` | プラグイン説明の日本語訳キャッシュ（名前→日本語、222件） |
+| `data/docs_watch.json` | 監視する公式ドキュメント一覧（key/label/page/gsec） |
 | `build.js` | 公式ソース取得＋メタ合成 → `index.html` を生成 |
 | `index.html` | 生成物（配信対象） |
 | `snapshots/` | 差分検出の状態（前回スナップショット `catalog.json` / 履歴 `changelog.json` / バッジ `badges.json`） |
@@ -26,6 +27,11 @@ node build.js
 - 取得失敗時（オフライン等）は data メタの固定一覧にフォールバック。
 - `GITHUB_TOKEN` 環境変数があればGitHub APIのレート制限を緩和（Actions向け）。
 - 出力 `index.html` をブラウザで開く（`file://` 可。確実に見るなら簡易サーバ: `python -m http.server` など）。
+
+## 公式ドキュメントの更新検知（F3）
+- `data/docs_watch.json` の各公式ドキュメント（skills/plugins/mcp/settings/hooks/github-actions/routines/slack）の `.md` を取得し、**本文ハッシュのみ**を `snapshots/docs.json` に保存（本文は保存しない）。
+- 前回ハッシュと違えば「更新あり」と判定し、`最終更新日` を記録。使い方ガイドの該当セクション上部に「📄 公式: 最終更新YYYY-MM-DD ⚠更新あり（要確認）」を表示し、「更新履歴」タブにも記載。
+- 内容の自動書き換えはしない（かみくだき自作文を保持）。人が公式リンクを見て手で更新する運用。
 
 ## 差分検出・更新履歴・バッジ
 - ビルドのたびに `snapshots/catalog.json`（前回の各アイテムの署名）と比較し、**追加/更新/削除**を検出。

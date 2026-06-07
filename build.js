@@ -1,6 +1,7 @@
 // ビルド: 公式ソース取得 ＋ data/ のメタを合成 → index.html を生成
 // 使い方: node build.js
 const fs = require("fs");
+const crypto = require("crypto");
 
 const MARKETPLACE =
   "https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/.claude-plugin/marketplace.json";
@@ -82,14 +83,24 @@ async function main() {
   const descJa = JSON.parse(fs.readFileSync("data/desc_ja.json", "utf-8"));
   const untranslated = plugins.filter(p => !descJa[p.name]).map(p => p.name);
 
+  // --- 公式ドキュメントの差分検知（本文ハッシュのみ保存。本文は保存しない） ---
+  const { docsStatus, changedDocs } = await watchDocs();
+
   // --- 差分検出（スナップショット比較） ---
-  const { badges, changelog } = diffAndRecord([...plugins, ...skills, ...mcps]);
+  let { badges, changelog } = diffAndRecord([...plugins, ...skills, ...mcps]);
+
+  // 公式ドキュメント更新を更新履歴に追記
+  if (changedDocs.length) {
+    changelog = [{ date: new Date().toISOString().slice(0, 10), kind: "docs", docs: changedDocs }, ...changelog];
+    fs.writeFileSync("snapshots/changelog.json", JSON.stringify(changelog, null, 2));
+  }
 
   const out = tpl
     .replace("__PLUGINS_JSON__", JSON.stringify(plugins))
     .replace("__SKILLS_JSON__", JSON.stringify(skills))
     .replace("__MCPS_JSON__", JSON.stringify(mcps))
     .replace("__DESC_JA_JSON__", JSON.stringify(descJa))
+    .replace("__DOCS_STATUS_JSON__", JSON.stringify(docsStatus))
     .replace("__BADGES_JSON__", JSON.stringify(badges))
     .replace("__CHANGELOG_JSON__", JSON.stringify(changelog));
 
@@ -97,8 +108,41 @@ async function main() {
   const internal = plugins.filter(p => p.type === "plugin-internal").length;
   console.log(`built index.html  plugins:${plugins.length}(内${internal}/外${plugins.length - internal}) skills:${skills.length} mcp:${mcps.length}`);
   console.log(`  日本語訳キャッシュ desc_ja: ${Object.keys(descJa).length}件 / 未翻訳プラグイン: ${untranslated.length}件`);
+  console.log(`  公式ドキュメント監視: ${Object.keys(docsStatus).length}件 / 今回更新: ${changedDocs.length}件${changedDocs.length ? " (" + changedDocs.map(d => d.key).join(", ") + ")" : ""}`);
   if (newSkills.length) console.log(`  NEW skills（日本語メタ未整備）: ${newSkills.join(", ")}`);
   if (newMcps.length) console.log(`  NEW mcp（日本語メタ未整備）: ${newMcps.join(", ")}`);
+}
+
+// 公式ドキュメント(.md)の本文ハッシュを前回と比較し、更新を検知（本文は保存しない）
+async function watchDocs() {
+  const list = JSON.parse(fs.readFileSync("data/docs_watch.json", "utf-8"));
+  fs.mkdirSync("snapshots", { recursive: true });
+  const SNAP = "snapshots/docs.json";
+  const prev = fs.existsSync(SNAP) ? JSON.parse(fs.readFileSync(SNAP, "utf-8")) : {};
+  const today = new Date().toISOString().slice(0, 10);
+  const status = {}, changed = [], next = {};
+  for (const d of list) {
+    let hash = null;
+    try {
+      const md = await fetchText(d.page + ".md");
+      hash = crypto.createHash("sha1").update(md.replace(/\s+/g, "")).digest("hex");
+    } catch (e) { console.warn(`! docs取得失敗 ${d.key}: ${e.message}`); }
+    const p = prev[d.key];
+    let lastChanged, isChanged = false;
+    if (!hash) {                         // 取得失敗 → 前回維持
+      lastChanged = p ? p.lastChanged : today; hash = p ? p.hash : null;
+    } else if (!p) {                     // 初回 = baseline
+      lastChanged = today;
+    } else if (p.hash !== hash) {        // 変更検知
+      isChanged = true; lastChanged = today; changed.push({ key: d.key, label: d.label });
+    } else {                             // 変化なし
+      lastChanged = p.lastChanged;
+    }
+    status[d.key] = { label: d.label, page: d.page, gsec: d.gsec, lastChanged, changed: isChanged };
+    next[d.key] = { hash, lastChanged };
+  }
+  fs.writeFileSync(SNAP, JSON.stringify(next, null, 2));
+  return { docsStatus: status, changedDocs: changed };
 }
 
 // 前回スナップショットと比較し、changelog / badges を更新して返す

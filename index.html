@@ -175,6 +175,11 @@
   .guide h4{font-size:13.5px;margin:16px 0 6px;color:var(--ink)}
   .guide .warn{font-size:12.5px;background:#fff6ed;border:1px solid #f0d9c2;border-radius:8px;padding:7px 10px;color:#7a4a23;margin:8px 0}
   .guide .plain{font-size:12px;background:var(--chip);border:1px solid var(--line);border-left:3px solid var(--internal);border-radius:8px;padding:7px 10px;margin:8px 0}
+  .docstatus{margin:0 0 10px}
+  .doc-line{font-size:11.5px;color:var(--sub);background:var(--chip);border:1px solid var(--line);border-radius:8px;padding:5px 9px;margin:3px 0}
+  .doc-line a{color:var(--accent);text-decoration:none}
+  .doc-date{color:var(--sub)}
+  .doc-upd{color:#fff;background:var(--accent);border-radius:999px;padding:1px 8px;font-size:10.5px;margin-left:4px}
   .guide p{font-size:13.5px;margin:6px 0}
   .guide ul{font-size:13.5px;margin:6px 0;padding-left:20px}
   .guide code{font-family:ui-monospace,Consolas,monospace;background:var(--chip);padding:1px 5px;border-radius:4px;font-size:12.5px}
@@ -347,6 +352,7 @@ Installed successfully ✓</span></div>
       </div>
 
       <div class="gsec" data-gsec="skills" hidden>
+      <div class="docstatus" id="docs-skills"></div>
       <h3>スキルとは？</h3>
       <p><code>SKILL.md</code> に手順を書くと、Claude の“道具箱”に手順が追加されます。関連する場面で Claude が自動で使うほか、<code>/スキル名</code> で直接呼び出せます。本体は使うときだけ読み込まれるので、普段は軽いままです。</p>
 
@@ -425,6 +431,7 @@ GitHub issue $ARGUMENTS をコーディング規約に従って修正して</cod
       </div>
 
       <div class="gsec" data-gsec="plugins" hidden>
+      <div class="docstatus" id="docs-plugins"></div>
       <h3>プラグインとは？</h3>
       <p>スキル・コマンド・エージェント・MCP などを<strong>まとめて配布する単位</strong>です。<code>/plugin</code> から導入・管理します。</p>
 
@@ -493,6 +500,7 @@ GitHub issue $ARGUMENTS をコーディング規約に従って修正して</cod
       </div>
 
       <div class="gsec" data-gsec="settings" hidden>
+      <div class="docstatus" id="docs-settings"></div>
       <h3>設定ファイルの使い分け（settings.json / settings.local.json）</h3>
       <table class="qa">
         <thead><tr><th>ファイル</th><th>用途</th><th>git</th></tr></thead>
@@ -596,6 +604,7 @@ GitHub issue $ARGUMENTS をコーディング規約に従って修正して</cod
       </div>
 
       <div class="gsec" data-gsec="mcp" hidden>
+      <div class="docstatus" id="docs-mcp"></div>
       <h3>MCP（外部ツール接続）の使い方</h3>
       <p>MCP（Model Context Protocol）は、Claude Code を外部のツール・DB・APIに接続する標準です。サーバーを追加すると、Claudeがそれらを<strong>直接読み書き</strong>できます（例:「JIRAの課題 ENG-4521 を実装してGitHubにPRを作って」）。</p>
 
@@ -655,6 +664,7 @@ claude mcp add --transport stdio --env AIRTABLE_API_KEY=KEY airtable \
       </div>
 
       <div class="gsec" data-gsec="features" hidden>
+      <div class="docstatus" id="docs-features"></div>
       <h3>公式機能（チーム開発）の使い方</h3>
       <p>カテゴリ別に主要機能のセットアップ手順をまとめました。全機能の一覧と公式リンクはカタログの <strong>「機能」</strong> タブを参照してください。</p>
 
@@ -1343,6 +1353,7 @@ const PLUGINS = [{"name":"42crunch-api-security-testing","description":"Automate
 // 差分検出の結果（build.js が注入）: 直近の変更でのNEW/UPDATEDキー、更新履歴
 const BADGES = {"new":[],"updated":[]};       // { "new": ["type|name", ...], "updated": [...] }
 const CHANGELOG = [{"date":"2026-06-07","kind":"baseline","counts":{"plugin":222,"skill":17,"mcp":7}}]; // [{date, kind, added:[{name,type}], updated:[...], removed:[...], counts:{...}}]
+const DOCS = {"skills":{"label":"スキル","page":"https://code.claude.com/docs/ja/skills","gsec":"skills","lastChanged":"2026-06-07","changed":false},"plugins":{"label":"プラグイン","page":"https://code.claude.com/docs/ja/plugins","gsec":"plugins","lastChanged":"2026-06-07","changed":false},"mcp":{"label":"MCP","page":"https://code.claude.com/docs/ja/mcp","gsec":"mcp","lastChanged":"2026-06-07","changed":false},"settings":{"label":"設定","page":"https://code.claude.com/docs/ja/settings","gsec":"settings","lastChanged":"2026-06-07","changed":false},"hooks":{"label":"Hooks","page":"https://code.claude.com/docs/ja/hooks","gsec":"features","lastChanged":"2026-06-07","changed":false},"github-actions":{"label":"GitHub Actions","page":"https://code.claude.com/docs/ja/github-actions","gsec":"features","lastChanged":"2026-06-07","changed":false},"routines":{"label":"Routines","page":"https://code.claude.com/docs/ja/routines","gsec":"features","lastChanged":"2026-06-07","changed":false},"slack":{"label":"Slack","page":"https://code.claude.com/docs/ja/slack","gsec":"features","lastChanged":"2026-06-07","changed":false}};    // { key:{label,page,gsec,lastChanged,changed} } 公式ドキュメント監視
 const NEW_SET = new Set((BADGES && BADGES.new) || []);
 const UPD_SET = new Set((BADGES && BADGES.updated) || []);
 
@@ -1423,7 +1434,22 @@ function init(){
   renderQA();
   renderSettings();
   renderChangelog();
+  renderDocStatus();
   render();
+}
+
+function renderDocStatus(){
+  if(!DOCS) return;
+  const byGsec={};
+  for(const k in DOCS){ const d=DOCS[k]; (byGsec[d.gsec]=byGsec[d.gsec]||[]).push(d); }
+  for(const gsec in byGsec){
+    const el=document.getElementById("docs-"+gsec); if(!el) continue;
+    el.innerHTML = byGsec[gsec].map(d=>{
+      const warn = d.changed ? '<span class="doc-upd">⚠ 更新あり（要確認）</span>' : '';
+      return `<div class="doc-line">📄 公式: <a href="${esc(d.page)}" target="_blank" rel="noopener">${esc(d.label)}</a>`+
+        ` <span class="doc-date">最終更新 ${esc(d.lastChanged)}</span> ${warn}</div>`;
+    }).join("");
+  }
 }
 
 function renderChangelog(){
@@ -1434,6 +1460,11 @@ function renderChangelog(){
     if(e.kind==="baseline"){
       return `<div class="cl-entry"><div class="cl-date">${esc(e.date)} ・ 初期登録</div>`+
         `<p>プラグイン ${e.counts.plugin||0} / スキル ${e.counts.skill||0} / MCP ${e.counts.mcp||0} を登録。</p></div>`;
+    }
+    if(e.kind==="docs"){
+      const items=(e.docs||[]).map(d=>`<li>${esc(d.label)}（<code>${esc(d.key)}</code>）</li>`).join("");
+      return `<div class="cl-entry"><div class="cl-date">${esc(e.date)} ・ 公式ドキュメント更新</div>`+
+        `<p>次の公式ドキュメントが更新されました。使い方ガイドの該当箇所を見直してください。</p><ul>${items}</ul></div>`;
     }
     return `<div class="cl-entry"><div class="cl-date">${esc(e.date)}</div>`+
       `<div class="cl-cols">`+

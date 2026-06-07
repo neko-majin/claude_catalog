@@ -1,0 +1,10 @@
+[
+  { "key": "skills", "label": "スキル", "page": "https://code.claude.com/docs/ja/skills", "gsec": "skills" },
+  { "key": "plugins", "label": "プラグイン", "page": "https://code.claude.com/docs/ja/plugins", "gsec": "plugins" },
+  { "key": "mcp", "label": "MCP", "page": "https://code.claude.com/docs/ja/mcp", "gsec": "mcp" },
+  { "key": "settings", "label": "設定", "page": "https://code.claude.com/docs/ja/settings", "gsec": "settings" },
+  { "key": "hooks", "label": "Hooks", "page": "https://code.claude.com/docs/ja/hooks", "gsec": "features" },
+  { "key": "github-actions", "label": "GitHub Actions", "page": "https://code.claude.com/docs/ja/github-actions", "gsec": "features" },
+  { "key": "routines", "label": "Routines", "page": "https://code.claude.com/docs/ja/routines", "gsec": "features" },
+  { "key": "slack", "label": "Slack", "page": "https://code.claude.com/docs/ja/slack", "gsec": "features" }
+]
