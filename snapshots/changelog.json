@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-06-10",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル"
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン"
+      },
+      {
+        "key": "settings",
+        "label": "設定"
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks"
+      },
+      {
+        "key": "routines",
+        "label": "Routines"
+      },
+      {
+        "key": "slack",
+        "label": "Slack"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "code-modernization",
+        "type": "plugin-internal"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-06-07",
     "kind": "baseline",
     "counts": {
