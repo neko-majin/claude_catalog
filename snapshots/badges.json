@@ -1,6 +1,6 @@
 {
-  "new": [],
-  "updated": [
-    "plugin-internal|code-modernization"
-  ]
+  "new": [
+    "plugin-external|langfuse-observability"
+  ],
+  "updated": []
 }
