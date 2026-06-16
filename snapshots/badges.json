@@ -1,6 +1,7 @@
 {
   "new": [
-    "plugin-external|langfuse-observability"
+    "plugin-external|boltz",
+    "plugin-external|lovable"
   ],
   "updated": []
 }

@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-06-16",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "boltz",
+        "type": "plugin-external"
+      },
+      {
+        "name": "lovable",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-13",
     "kind": "diff",
     "added": [
