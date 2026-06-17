@@ -1,7 +1,8 @@
 {
   "new": [
-    "plugin-external|boltz",
-    "plugin-external|lovable"
+    "plugin-external|airwallex-agentos",
+    "plugin-external|confidence",
+    "plugin-external|rill"
   ],
   "updated": []
 }

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-17",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "airwallex-agentos",
+        "type": "plugin-external"
+      },
+      {
+        "name": "confidence",
+        "type": "plugin-external"
+      },
+      {
+        "name": "rill",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-16",
     "kind": "docs",
     "docs": [
