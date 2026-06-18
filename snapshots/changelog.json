@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-06-18",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル"
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン"
+      },
+      {
+        "key": "mcp",
+        "label": "MCP"
+      },
+      {
+        "key": "settings",
+        "label": "設定"
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks"
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions"
+      },
+      {
+        "key": "routines",
+        "label": "Routines"
+      },
+      {
+        "key": "slack",
+        "label": "Slack"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "aws-agents-for-devsecops",
+        "type": "plugin-external"
+      },
+      {
+        "name": "aws-transform",
+        "type": "plugin-external"
+      },
+      {
+        "name": "logrocket",
+        "type": "plugin-external"
+      },
+      {
+        "name": "monday-crm",
+        "type": "plugin-external"
+      },
+      {
+        "name": "oracle-ai-data-platform-workbench-engineer-agent",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": [
+      {
+        "name": "airwallex",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "kind": "diff",
     "added": [

@@ -1,8 +1,10 @@
 {
   "new": [
-    "plugin-external|airwallex-agentos",
-    "plugin-external|confidence",
-    "plugin-external|rill"
+    "plugin-external|aws-agents-for-devsecops",
+    "plugin-external|aws-transform",
+    "plugin-external|logrocket",
+    "plugin-external|monday-crm",
+    "plugin-external|oracle-ai-data-platform-workbench-engineer-agent"
   ],
   "updated": []
 }
