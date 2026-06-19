@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-19",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "project-artifact",
+        "type": "plugin-internal"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-18",
     "kind": "docs",
     "docs": [
