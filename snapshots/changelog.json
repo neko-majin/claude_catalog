@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-20",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "learn-with-coursera",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [
+      {
+        "name": "auth0",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-06-19",
     "kind": "diff",
     "added": [

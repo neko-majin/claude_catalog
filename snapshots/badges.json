@@ -1,6 +1,8 @@
 {
   "new": [
-    "plugin-internal|project-artifact"
+    "plugin-external|learn-with-coursera"
   ],
-  "updated": []
+  "updated": [
+    "plugin-external|auth0"
+  ]
 }
