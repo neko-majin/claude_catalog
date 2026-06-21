@@ -220,5 +220,18 @@
   "zilliz": "Zilliz Cloud管理14スキル。クラスタ運用・スキーマ・ベクトル検索・索引調整・一括取込・RBAC・バックアップ・監視",
   "zoom-plugin": "Zoom連携の計画・構築・デバッグ。REST API・SDK・webhook・ボット・MCPワークフロー",
   "zoominfo": "ZoomInfoで企業/連絡先検索・リード拡充・類似企業・AIランキング。複数ツールを連結したB2B営業フロー",
-  "zscaler": "Zscalerクラウドセキュリティ管理(ZPA/ZIA/ZDX/ZCC/EASM)。ポリシー管理・接続診断・監査・調査"
+  "zscaler": "Zscalerクラウドセキュリティ管理(ZPA/ZIA/ZDX/ZCC/EASM)。ポリシー管理・接続診断・監査・調査",
+  "airwallex-agentos": "Airwallexの金融基盤をClaudeに。自然言語で請求書作成・仕入先オンボーディング・通貨別の資金状況確認など（金融スキル＋MCP＋CLI）",
+  "aws-agents-for-devsecops": "AWS DevOps/Securityエージェント。インシデント調査・コードレビュー・UAT・脆弱性スキャン・ペネトレーションテスト",
+  "aws-transform": "コードベースのAWS移行・近代化。.NET Framework→.NET 8/10、COBOL→Java、VMware→EC2、SQL Server→Aurora、各種バージョン/SDK更新",
+  "boltz": "Boltzで構造予測・分子/タンパク質スクリーニング・バインダー設計をClaude Codeから",
+  "confidence": "Confidenceのフィーチャーフラグ・実験・移行ツールにClaude Codeから直接アクセス",
+  "langfuse-observability": "Langfuse × Claude Code の可観測性プラグイン",
+  "learn-with-coursera": "学びたい内容をCourseraの最適な学習体験に。3つの質問→カタログ検索→講座/プロジェクト/動画/ロールプレイを提案（要Courseraコネクタ）",
+  "logrocket": "LogRocket連携。セッションリプレイ・指標・課題・ユーザー行動を自然言語で照会",
+  "lovable": "LovableアプリをClaude Codeから構築・反復・デプロイ・管理（公式Lovable MCP＋安全プロンプト付き）",
+  "monday-crm": "monday CRMを自然言語で運用。パイプライン構築・案件ブリーフィング・予測ダッシュボード・データ整理・議事録→更新（公式monday MCP）",
+  "oracle-ai-data-platform-workbench-engineer-agent": "Oracle AIDP Workbenchエンジニアエージェント(37スキル)。Spark/Deltaレイクハウスを自然言語で操作・パイプライン・ガバナンス・MLflow（公式aidp CLI）",
+  "project-artifact": "プロジェクト状況ページを生成・公開。概要/成功基準/作業順/次の一手をclaude.ai成果物として共有し、更新時は差分のみ再生成",
+  "rill": "Rill BIプラットフォームのプロジェクト開発・クエリのスキル"
 }

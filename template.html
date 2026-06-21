@@ -180,6 +180,9 @@
   .doc-line a{color:var(--accent);text-decoration:none}
   .doc-date{color:var(--sub)}
   .doc-upd{color:#fff;background:var(--accent);border-radius:999px;padding:1px 8px;font-size:10.5px;margin-left:4px}
+  .doc-secs{margin-top:4px;font-size:11px;color:var(--ink)}
+  .doc-sec{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:1px 6px;margin:2px 4px 0 0}
+  .cl-secs{margin:4px 0 0;padding-left:18px;font-size:12px;color:var(--sub)}
   .guide p{font-size:13.5px;margin:6px 0}
   .guide ul{font-size:13.5px;margin:6px 0;padding-left:20px}
   .guide code{font-family:ui-monospace,Consolas,monospace;background:var(--chip);padding:1px 5px;border-radius:4px;font-size:12.5px}
@@ -1446,8 +1449,13 @@ function renderDocStatus(){
     const el=document.getElementById("docs-"+gsec); if(!el) continue;
     el.innerHTML = byGsec[gsec].map(d=>{
       const warn = d.changed ? '<span class="doc-upd">⚠ 更新あり（要確認）</span>' : '';
+      let detail = '';
+      if(d.changed && d.changes && d.changes.length){
+        const ic = {added:'＋追加',changed:'✎変更',removed:'－削除'};
+        detail = `<div class="doc-secs">変更箇所: ${d.changes.map(c=>`<span class="doc-sec">${esc(ic[c.type]||c.type)}「${esc(c.heading)}」</span>`).join(" ")}</div>`;
+      }
       return `<div class="doc-line">📄 公式: <a href="${esc(d.page)}" target="_blank" rel="noopener">${esc(d.label)}</a>`+
-        ` <span class="doc-date">最終更新 ${esc(d.lastChanged)}</span> ${warn}</div>`;
+        ` <span class="doc-date">最終更新 ${esc(d.lastChanged)}</span> ${warn}${detail}</div>`;
     }).join("");
   }
 }
@@ -1462,9 +1470,15 @@ function renderChangelog(){
         `<p>プラグイン ${e.counts.plugin||0} / スキル ${e.counts.skill||0} / MCP ${e.counts.mcp||0} を登録。</p></div>`;
     }
     if(e.kind==="docs"){
-      const items=(e.docs||[]).map(d=>`<li>${esc(d.label)}（<code>${esc(d.key)}</code>）</li>`).join("");
+      const ic={added:'＋追加',changed:'✎変更',removed:'－削除'};
+      const items=(e.docs||[]).map(d=>{
+        const secs=(d.changes&&d.changes.length)
+          ? `<ul class="cl-secs">${d.changes.map(c=>`<li>${esc(ic[c.type]||c.type)}「${esc(c.heading)}」</li>`).join("")}</ul>`
+          : "";
+        return `<li>${esc(d.label)}（<code>${esc(d.key)}</code>）${secs}</li>`;
+      }).join("");
       return `<div class="cl-entry"><div class="cl-date">${esc(e.date)} ・ 公式ドキュメント更新</div>`+
-        `<p>次の公式ドキュメントが更新されました。使い方ガイドの該当箇所を見直してください。</p><ul>${items}</ul></div>`;
+        `<p>次の公式ドキュメントが更新されました（変わった章を表示）。該当章を確認し、使い方ガイドを見直してください。</p><ul>${items}</ul></div>`;
     }
     return `<div class="cl-entry"><div class="cl-date">${esc(e.date)}</div>`+
       `<div class="cl-cols">`+

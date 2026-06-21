@@ -113,7 +113,39 @@ async function main() {
   if (newMcps.length) console.log(`  NEW mcp（日本語メタ未整備）: ${newMcps.join(", ")}`);
 }
 
-// 公式ドキュメント(.md)の本文ハッシュを前回と比較し、更新を検知（本文は保存しない）
+// .md を見出し(## / ###)単位に分割し、各章の本文ハッシュを返す（本文は保存しない）
+function sectionHashes(md) {
+  const norm = s => crypto.createHash("sha1").update(s.replace(/\s+/g, "")).digest("hex");
+  const out = {};
+  let cur = "（冒頭）", buf = [];
+  const seen = {};
+  const flush = () => { out[cur] = norm(buf.join("\n")); };
+  for (const line of md.split("\n")) {
+    const m = line.match(/^#{2,3}\s+(.+?)\s*$/);
+    if (m) {
+      flush();
+      let h = m[1].replace(/[*`#]/g, "").trim();
+      if (seen[h]) { seen[h]++; h = `${h} (${seen[h]})`; } else seen[h] = 1;
+      cur = h; buf = [];
+    } else buf.push(line);
+  }
+  flush();
+  return out;
+}
+
+// 前回の章ハッシュと比較し、変更/追加/削除された章見出しを返す
+function diffSections(prev, cur) {
+  const changes = [];
+  const p = prev || {};
+  for (const h in cur) {
+    if (!(h in p)) changes.push({ heading: h, type: "added" });
+    else if (p[h] !== cur[h]) changes.push({ heading: h, type: "changed" });
+  }
+  for (const h in p) if (!(h in cur)) changes.push({ heading: h, type: "removed" });
+  return changes;
+}
+
+// 公式ドキュメント(.md)を章単位で前回と比較し、どの章が変わったかを検知（本文は保存しない）
 async function watchDocs() {
   const list = JSON.parse(fs.readFileSync("data/docs_watch.json", "utf-8"));
   fs.mkdirSync("snapshots", { recursive: true });
@@ -122,24 +154,25 @@ async function watchDocs() {
   const today = new Date().toISOString().slice(0, 10);
   const status = {}, changed = [], next = {};
   for (const d of list) {
-    let hash = null;
+    let secs = null;
     try {
-      const md = await fetchText(d.page + ".md");
-      hash = crypto.createHash("sha1").update(md.replace(/\s+/g, "")).digest("hex");
+      secs = sectionHashes(await fetchText(d.page + ".md"));
     } catch (e) { console.warn(`! docs取得失敗 ${d.key}: ${e.message}`); }
     const p = prev[d.key];
-    let lastChanged, isChanged = false;
-    if (!hash) {                         // 取得失敗 → 前回維持
-      lastChanged = p ? p.lastChanged : today; hash = p ? p.hash : null;
-    } else if (!p) {                     // 初回 = baseline
-      lastChanged = today;
-    } else if (p.hash !== hash) {        // 変更検知
-      isChanged = true; lastChanged = today; changed.push({ key: d.key, label: d.label });
-    } else {                             // 変化なし
-      lastChanged = p.lastChanged;
+    let lastChanged, isChanged = false, changes = [];
+    if (!secs) {                                  // 取得失敗 → 前回維持
+      next[d.key] = p || { sections: {}, lastChanged: today };
+      lastChanged = next[d.key].lastChanged;
+    } else if (!p || !p.sections) {               // 初回 or 旧形式 → 静かに基準化
+      lastChanged = (p && p.lastChanged) || today;
+      next[d.key] = { sections: secs, lastChanged };
+    } else {
+      changes = diffSections(p.sections, secs);
+      if (changes.length) { isChanged = true; lastChanged = today; changed.push({ key: d.key, label: d.label, changes }); }
+      else lastChanged = p.lastChanged;
+      next[d.key] = { sections: secs, lastChanged };
     }
-    status[d.key] = { label: d.label, page: d.page, gsec: d.gsec, lastChanged, changed: isChanged };
-    next[d.key] = { hash, lastChanged };
+    status[d.key] = { label: d.label, page: d.page, gsec: d.gsec, lastChanged, changed: isChanged, changes };
   }
   fs.writeFileSync(SNAP, JSON.stringify(next, null, 2));
   return { docsStatus: status, changedDocs: changed };

@@ -1,34 +1,56 @@
 {
   "skills": {
-    "hash": "a21a82de74d4ce7ea7d7b7374b51823a80094311",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "f8d2e9b7b137f20947e94501096de38f87c062bd",
+      "Additional resources": "107d445332f0f45874e9a69faed6a32c062ef21b",
+      "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
+      "Your task": "646a93c5aee94adb094c93737bf4531346f69373",
+      "Environment": "fbd715cb5829ab5faf40f87449b9fe9c3b2ba056",
+      "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
+      "What the visualization shows": "8e661b02e6a29b2cd65cf7761e41e584cf9ba6fa"
+    },
+    "lastChanged": "2026-06-21"
   },
   "plugins": {
-    "hash": "fc582471f4f58f9a38daa00ffd36bddebffcfb6b",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "0f2986e0aada55bd1bef7b2c3cafb25fc1399f1e"
+    },
+    "lastChanged": "2026-06-21"
   },
   "mcp": {
-    "hash": "d25c7c5288c29b9a2dd67ab6c6f954afc10426cf",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "c4b3fc81aa176730b942bc737caf0451a5196294"
+    },
+    "lastChanged": "2026-06-21"
   },
   "settings": {
-    "hash": "fd493440c739d1b948652437a76acd34a60b8696",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "a495d94d52a526274fe434884824cd81707016a0"
+    },
+    "lastChanged": "2026-06-21"
   },
   "hooks": {
-    "hash": "94f5df829bf1bda4018bb3b2223c21e626b431ed",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "0ed73a426c6a381be21d2ac6a4436096e4b49b52"
+    },
+    "lastChanged": "2026-06-21"
   },
   "github-actions": {
-    "hash": "efca13c1022920f3c577834573f8a9b6ac829f6e",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "6af43d19c7eb2f7ed9675aaa3a91a8ed21bdff51"
+    },
+    "lastChanged": "2026-06-21"
   },
   "routines": {
-    "hash": "89524a17b43f7708ec070d98189bdeeb5e95127b",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "c86023a15d5a3ed2b543125bce20e62c4cfac367"
+    },
+    "lastChanged": "2026-06-21"
   },
   "slack": {
-    "hash": "a791895eebcde9fa1984112b93e7d5d528f6ad58",
-    "lastChanged": "2026-06-07"
+    "sections": {
+      "（冒頭）": "cd3c0c97b95a4d451008c5e38fd60429a176c921"
+    },
+    "lastChanged": "2026-06-21"
   }
 }
