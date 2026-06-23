@@ -1,20 +1,8 @@
 {
   "new": [
-    "plugin-external|airwallex-agentos",
-    "plugin-external|aws-agents-for-devsecops",
-    "plugin-external|aws-transform",
-    "plugin-external|boltz",
-    "plugin-external|confidence",
-    "plugin-external|langfuse-observability",
-    "plugin-external|learn-with-coursera",
-    "plugin-external|logrocket",
-    "plugin-external|lovable",
-    "plugin-external|monday-crm",
-    "plugin-external|oracle-ai-data-platform-workbench-engineer-agent",
-    "plugin-internal|project-artifact",
-    "plugin-external|rill"
+    "plugin-external|langfuse"
   ],
   "updated": [
-    "plugin-external|auth0"
+    "plugin-external|sentry"
   ]
 }

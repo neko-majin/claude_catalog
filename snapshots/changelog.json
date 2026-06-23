@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-06-23",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "What the visualization shows",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "langfuse",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [
+      {
+        "name": "sentry",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-06-21",
     "kind": "diff",
     "added": [

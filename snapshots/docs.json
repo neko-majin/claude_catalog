@@ -5,11 +5,11 @@
       "Additional resources": "107d445332f0f45874e9a69faed6a32c062ef21b",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "646a93c5aee94adb094c93737bf4531346f69373",
-      "Environment": "fbd715cb5829ab5faf40f87449b9fe9c3b2ba056",
+      "Environment": "471eef4922208f2435761c10bb476a81dfa31556",
       "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
-      "What the visualization shows": "8e661b02e6a29b2cd65cf7761e41e584cf9ba6fa"
+      "What the visualization shows": "521ca613d8d3474b04594595ca7281a1ff1ae711"
     },
-    "lastChanged": "2026-06-21"
+    "lastChanged": "2026-06-23"
   },
   "plugins": {
     "sections": {
@@ -19,15 +19,15 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "c4b3fc81aa176730b942bc737caf0451a5196294"
+      "（冒頭）": "53c002c62591136021ad86d7fcb05350595d0b0a"
     },
-    "lastChanged": "2026-06-21"
+    "lastChanged": "2026-06-23"
   },
   "settings": {
     "sections": {
-      "（冒頭）": "a495d94d52a526274fe434884824cd81707016a0"
+      "（冒頭）": "7e9e3b9b203372a51808546a563ee171224c6c87"
     },
-    "lastChanged": "2026-06-21"
+    "lastChanged": "2026-06-23"
   },
   "hooks": {
     "sections": {
