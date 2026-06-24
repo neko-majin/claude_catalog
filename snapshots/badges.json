@@ -1,8 +1,6 @@
 {
   "new": [
-    "plugin-external|langfuse"
+    "plugin-external|databricks"
   ],
-  "updated": [
-    "plugin-external|sentry"
-  ]
+  "updated": []
 }
