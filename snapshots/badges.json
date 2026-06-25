@@ -1,6 +1,7 @@
 {
   "new": [
-    "plugin-external|databricks"
+    "plugin-external|dropbox",
+    "plugin-external|oracle-ai-data-platform-workbench-databricks-migrator"
   ],
   "updated": []
 }

@@ -1,7 +1,7 @@
 {
   "skills": {
     "sections": {
-      "（冒頭）": "f8d2e9b7b137f20947e94501096de38f87c062bd",
+      "（冒頭）": "83fbb779d5f914d5a52cf4eabae7fa29c9331c74",
       "Additional resources": "107d445332f0f45874e9a69faed6a32c062ef21b",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "646a93c5aee94adb094c93737bf4531346f69373",
@@ -9,7 +9,7 @@
       "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
       "What the visualization shows": "62b2890995640d49bf84dbbe9d65c7e8bca29e9e"
     },
-    "lastChanged": "2026-06-24"
+    "lastChanged": "2026-06-25"
   },
   "plugins": {
     "sections": {
@@ -19,27 +19,27 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "53c002c62591136021ad86d7fcb05350595d0b0a"
+      "（冒頭）": "694cf4826cebb613d716e3dfa7bfdbfec27cdb0b"
     },
-    "lastChanged": "2026-06-23"
+    "lastChanged": "2026-06-25"
   },
   "settings": {
     "sections": {
-      "（冒頭）": "7e9e3b9b203372a51808546a563ee171224c6c87"
+      "（冒頭）": "aefae78b9c0315651adc800acf32132f475f3890"
     },
-    "lastChanged": "2026-06-23"
+    "lastChanged": "2026-06-25"
   },
   "hooks": {
     "sections": {
-      "（冒頭）": "0ed73a426c6a381be21d2ac6a4436096e4b49b52"
+      "（冒頭）": "47d7ce0db2685afc595aff0e34d8d5adc6a692cc"
     },
-    "lastChanged": "2026-06-21"
+    "lastChanged": "2026-06-25"
   },
   "github-actions": {
     "sections": {
-      "（冒頭）": "6af43d19c7eb2f7ed9675aaa3a91a8ed21bdff51"
+      "（冒頭）": "d095f3dd1e92b9a437b8cfc124f3c9fd57f28e12"
     },
-    "lastChanged": "2026-06-21"
+    "lastChanged": "2026-06-25"
   },
   "routines": {
     "sections": {
