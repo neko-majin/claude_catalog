@@ -1,7 +1,7 @@
 {
   "new": [
-    "plugin-external|dropbox",
-    "plugin-external|oracle-ai-data-platform-workbench-databricks-migrator"
+    "plugin-external|sap-hana-cli",
+    "plugin-external|ui5-modernization"
   ],
   "updated": []
 }

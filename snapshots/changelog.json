@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-06-26",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "sap-hana-cli",
+        "type": "plugin-external"
+      },
+      {
+        "name": "ui5-modernization",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-25",
     "kind": "docs",
     "docs": [
