@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-06-27",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "canva",
+        "type": "plugin-external"
+      },
+      {
+        "name": "tavily",
+        "type": "plugin-external"
+      },
+      {
+        "name": "unreal-engine-skills-for-claude-code",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-26",
     "kind": "docs",
     "docs": [

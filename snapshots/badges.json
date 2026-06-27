@@ -1,7 +1,8 @@
 {
   "new": [
-    "plugin-external|sap-hana-cli",
-    "plugin-external|ui5-modernization"
+    "plugin-external|canva",
+    "plugin-external|tavily",
+    "plugin-external|unreal-engine-skills-for-claude-code"
   ],
   "updated": []
 }
