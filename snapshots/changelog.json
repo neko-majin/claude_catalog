@@ -1,5 +1,117 @@
 [
   {
+    "date": "2026-07-01",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "What the visualization shows",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "grafana-assistant",
+        "type": "plugin-external"
+      },
+      {
+        "name": "grafana-cloud-mcp",
+        "type": "plugin-external"
+      },
+      {
+        "name": "grafana-mcp",
+        "type": "plugin-external"
+      },
+      {
+        "name": "honeycomb",
+        "type": "plugin-external"
+      },
+      {
+        "name": "hostinger",
+        "type": "plugin-external"
+      },
+      {
+        "name": "mergify",
+        "type": "plugin-external"
+      },
+      {
+        "name": "pixeltable",
+        "type": "plugin-external"
+      },
+      {
+        "name": "preset-cli-skills",
+        "type": "plugin-external"
+      },
+      {
+        "name": "render",
+        "type": "plugin-external"
+      },
+      {
+        "name": "vsql-extension-builder",
+        "type": "plugin-external"
+      },
+      {
+        "name": "zyte-web-data",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-06-27",
     "kind": "docs",
     "docs": [

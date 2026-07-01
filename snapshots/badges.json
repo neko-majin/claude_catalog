@@ -1,8 +1,16 @@
 {
   "new": [
-    "plugin-external|canva",
-    "plugin-external|tavily",
-    "plugin-external|unreal-engine-skills-for-claude-code"
+    "plugin-external|grafana-assistant",
+    "plugin-external|grafana-cloud-mcp",
+    "plugin-external|grafana-mcp",
+    "plugin-external|honeycomb",
+    "plugin-external|hostinger",
+    "plugin-external|mergify",
+    "plugin-external|pixeltable",
+    "plugin-external|preset-cli-skills",
+    "plugin-external|render",
+    "plugin-external|vsql-extension-builder",
+    "plugin-external|zyte-web-data"
   ],
   "updated": []
 }
