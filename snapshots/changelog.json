@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-02",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "idmp-plugin",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-01",
     "kind": "docs",
     "docs": [
