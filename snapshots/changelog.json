@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-03",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-07-02",
     "kind": "diff",
     "added": [
