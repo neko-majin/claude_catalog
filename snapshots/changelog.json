@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-07-04",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Additional resources",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-07-03",
     "kind": "docs",
     "docs": [
