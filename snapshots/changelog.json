@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-07",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "build-with-wordpress",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": [
+      {
+        "name": "wordpress.com",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "kind": "docs",
     "docs": [
