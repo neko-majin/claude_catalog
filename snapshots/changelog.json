@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-08",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "langfuse-observability",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-07-07",
     "kind": "diff",
     "added": [

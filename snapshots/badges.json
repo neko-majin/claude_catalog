@@ -1,6 +1,6 @@
 {
-  "new": [
-    "plugin-external|build-with-wordpress"
-  ],
-  "updated": []
+  "new": [],
+  "updated": [
+    "plugin-external|langfuse-observability"
+  ]
 }
