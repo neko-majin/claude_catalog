@@ -13,27 +13,27 @@
   },
   "plugins": {
     "sections": {
-      "（冒頭）": "8a24623e7e460720dbb2666f514abb0ed9d9ffd2"
+      "（冒頭）": "6770f51f8d0a65cb898bacc009b539161f653fb1"
     },
-    "lastChanged": "2026-07-11"
+    "lastChanged": "2026-07-14"
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "07753ea52fc056ba1859e42dc0194733c734012f"
+      "（冒頭）": "94b08108876c5f9aa9bf18fc4ef6c9bcedda835a"
     },
-    "lastChanged": "2026-07-11"
+    "lastChanged": "2026-07-14"
   },
   "settings": {
     "sections": {
-      "（冒頭）": "b8e5bc54bc017a7438d7f321b0925132b450b1d0"
+      "（冒頭）": "7c5c52c55c1f36e042d1cae1c9085b39ed4106ea"
     },
-    "lastChanged": "2026-07-11"
+    "lastChanged": "2026-07-14"
   },
   "hooks": {
     "sections": {
-      "（冒頭）": "c80aa282d36e76d8c01c7ae6b63fbf6d868ef7a8"
+      "（冒頭）": "e0bc1ae1c9007683d1cf6df0079678c8affab7bd"
     },
-    "lastChanged": "2026-07-11"
+    "lastChanged": "2026-07-14"
   },
   "github-actions": {
     "sections": {
@@ -43,9 +43,9 @@
   },
   "routines": {
     "sections": {
-      "（冒頭）": "af9d15cdf3d649eb032518c38811305e7b11e294"
+      "（冒頭）": "cdc53249fc00e53e7b2d1724261fc1ea235d25de"
     },
-    "lastChanged": "2026-07-11"
+    "lastChanged": "2026-07-14"
   },
   "slack": {
     "sections": {
