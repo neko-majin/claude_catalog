@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-15",
+    "kind": "diff",
+    "added": [],
+    "updated": [],
+    "removed": [
+      {
+        "name": "shopify",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-07-14",
     "kind": "docs",
     "docs": [
