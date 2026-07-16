@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-16",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "deepeval",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-15",
     "kind": "diff",
     "added": [],

@@ -1,4 +1,6 @@
 {
-  "new": [],
+  "new": [
+    "plugin-external|deepeval"
+  ],
   "updated": []
 }
