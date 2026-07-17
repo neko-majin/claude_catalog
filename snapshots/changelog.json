@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-07-17",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "amd-skills",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-16",
     "kind": "diff",
     "added": [
