@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-18",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "receipts",
+        "type": "plugin-internal"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-17",
     "kind": "docs",
     "docs": [
