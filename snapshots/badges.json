@@ -1,6 +1,8 @@
 {
   "new": [
-    "plugin-internal|receipts"
+    "plugin-external|newrelic"
   ],
-  "updated": []
+  "updated": [
+    "plugin-internal|receipts"
+  ]
 }
