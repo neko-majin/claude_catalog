@@ -1,5 +1,74 @@
 [
   {
+    "date": "2026-07-22",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "altimate-code",
+        "type": "plugin-external"
+      },
+      {
+        "name": "azure-sql-developer",
+        "type": "plugin-external"
+      },
+      {
+        "name": "browser-use",
+        "type": "plugin-external"
+      },
+      {
+        "name": "carbone-skill",
+        "type": "plugin-external"
+      },
+      {
+        "name": "ckeditor",
+        "type": "plugin-external"
+      },
+      {
+        "name": "crowdsec",
+        "type": "plugin-external"
+      },
+      {
+        "name": "gitkraken",
+        "type": "plugin-external"
+      },
+      {
+        "name": "growthbook",
+        "type": "plugin-external"
+      },
+      {
+        "name": "modern-web-guidance",
+        "type": "plugin-external"
+      },
+      {
+        "name": "mlflow",
+        "type": "plugin-external"
+      },
+      {
+        "name": "qodo",
+        "type": "plugin-external"
+      },
+      {
+        "name": "stackhawk-hawkscan",
+        "type": "plugin-external"
+      },
+      {
+        "name": "stackhawk-api",
+        "type": "plugin-external"
+      },
+      {
+        "name": "ui-theme-designer",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": [
+      {
+        "name": "qodo-skills",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-07-21",
     "kind": "docs",
     "docs": [
