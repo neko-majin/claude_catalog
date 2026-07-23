@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-23",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "claude-security",
+        "type": "plugin-internal"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-22",
     "kind": "diff",
     "added": [

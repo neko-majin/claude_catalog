@@ -1,19 +1,6 @@
 {
   "new": [
-    "plugin-external|altimate-code",
-    "plugin-external|azure-sql-developer",
-    "plugin-external|browser-use",
-    "plugin-external|carbone-skill",
-    "plugin-external|ckeditor",
-    "plugin-external|crowdsec",
-    "plugin-external|gitkraken",
-    "plugin-external|growthbook",
-    "plugin-external|modern-web-guidance",
-    "plugin-external|mlflow",
-    "plugin-external|qodo",
-    "plugin-external|stackhawk-hawkscan",
-    "plugin-external|stackhawk-api",
-    "plugin-external|ui-theme-designer"
+    "plugin-internal|claude-security"
   ],
   "updated": []
 }
