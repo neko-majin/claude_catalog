@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-24",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "catalyst-by-zoho",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-07-23",
     "kind": "diff",
     "added": [
