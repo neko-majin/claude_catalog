@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-09-09",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "greptile",
+        "type": "plugin-external"
+      },
+      {
+        "name": "qodo-standards",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [
+      {
+        "name": "box",
+        "type": "plugin-external"
+      },
+      {
+        "name": "qodo",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": [
+      {
+        "name": "greptile",
+        "type": "plugin-internal"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "kind": "diff",
     "added": [],

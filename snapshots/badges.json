@@ -1,6 +1,10 @@
 {
-  "new": [],
+  "new": [
+    "plugin-external|greptile",
+    "plugin-external|qodo-standards"
+  ],
   "updated": [
-    "plugin-external|nvidia-skills"
+    "plugin-external|box",
+    "plugin-external|qodo"
   ]
 }
