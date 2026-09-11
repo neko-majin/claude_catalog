@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-09-11",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "gc-ai",
+        "type": "plugin-external"
+      },
+      {
+        "name": "hubspot-sales",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-10",
     "kind": "docs",
     "docs": [

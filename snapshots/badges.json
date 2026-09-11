@@ -1,10 +1,7 @@
 {
   "new": [
-    "plugin-external|greptile",
-    "plugin-external|qodo-standards"
+    "plugin-external|gc-ai",
+    "plugin-external|hubspot-sales"
   ],
-  "updated": [
-    "plugin-external|box",
-    "plugin-external|qodo"
-  ]
+  "updated": []
 }
