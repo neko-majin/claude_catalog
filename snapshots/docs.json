@@ -13,21 +13,21 @@
   },
   "plugins": {
     "sections": {
-      "（冒頭）": "cdd6649332b34dcf9a0ede2276888cf67d9f8dea"
+      "（冒頭）": "df5b409c8adf28ca0cc0a193ecf55884133b2e10"
     },
-    "lastChanged": "2026-09-10"
+    "lastChanged": "2026-09-12"
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "74a1f94e39de990973f7cc691c9697987607ec93"
+      "（冒頭）": "68b8fd7af8d0671ef38de16898b948767eb5fa2d"
     },
-    "lastChanged": "2026-08-04"
+    "lastChanged": "2026-09-12"
   },
   "settings": {
     "sections": {
-      "（冒頭）": "ce42b96b033fba8c874e33dc170156c18e8e594a"
+      "（冒頭）": "e55478cbf0d2d5fe8fd7fee237c66d69c4a4c8a4"
     },
-    "lastChanged": "2026-09-11"
+    "lastChanged": "2026-09-12"
   },
   "hooks": {
     "sections": {
