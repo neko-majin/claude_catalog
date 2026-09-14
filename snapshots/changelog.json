@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-14",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "blackrock-advisor-center-plugin",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-12",
     "kind": "docs",
     "docs": [
