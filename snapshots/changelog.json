@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-16",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "informatica-for-claude-platform",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-14",
     "kind": "diff",
     "added": [
