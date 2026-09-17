@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-09-17",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "chronograph-gp",
+        "type": "plugin-external"
+      },
+      {
+        "name": "chronograph-lp",
+        "type": "plugin-external"
+      },
+      {
+        "name": "clay",
+        "type": "plugin-external"
+      },
+      {
+        "name": "intuit-quickbooks",
+        "type": "plugin-external"
+      },
+      {
+        "name": "leadfeeder",
+        "type": "plugin-external"
+      },
+      {
+        "name": "pendo-analytics",
+        "type": "plugin-external"
+      },
+      {
+        "name": "pendo-guides",
+        "type": "plugin-external"
+      },
+      {
+        "name": "pendo-orchestrate",
+        "type": "plugin-external"
+      },
+      {
+        "name": "setup-agent-analytics",
+        "type": "plugin-external"
+      },
+      {
+        "name": "setup-mcp-agent-analytics",
+        "type": "plugin-external"
+      },
+      {
+        "name": "zocks-advisor",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-16",
     "kind": "diff",
     "added": [
