@@ -1,16 +1,9 @@
 {
   "new": [
-    "plugin-external|chronograph-gp",
-    "plugin-external|chronograph-lp",
-    "plugin-external|clay",
-    "plugin-external|intuit-quickbooks",
-    "plugin-external|leadfeeder",
-    "plugin-external|pendo-analytics",
-    "plugin-external|pendo-guides",
-    "plugin-external|pendo-orchestrate",
-    "plugin-external|setup-agent-analytics",
-    "plugin-external|setup-mcp-agent-analytics",
-    "plugin-external|zocks-advisor"
+    "plugin-external|incident-io",
+    "plugin-external|wingspan"
   ],
-  "updated": []
+  "updated": [
+    "plugin-external|qodo"
+  ]
 }

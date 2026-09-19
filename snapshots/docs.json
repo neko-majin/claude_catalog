@@ -19,9 +19,9 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "f3d56f8569bc6b871b4f39ac2c307441d46bc565"
+      "（冒頭）": "ec587ca1675d964db751cfe436a9583f7f58c6ff"
     },
-    "lastChanged": "2026-09-18"
+    "lastChanged": "2026-09-19"
   },
   "settings": {
     "sections": {
@@ -43,14 +43,14 @@
   },
   "routines": {
     "sections": {
-      "（冒頭）": "3258493852e49b2a16aa81515b2e42a00b2eb357"
+      "（冒頭）": "a5b14804d4f5c75c4bda6adbc905f252fff5820a"
     },
-    "lastChanged": "2026-09-18"
+    "lastChanged": "2026-09-19"
   },
   "slack": {
     "sections": {
-      "（冒頭）": "b73bf6ea8487ade8457445a3ed5dc9357ea81416"
+      "（冒頭）": "ddf6d7fe2b994847122b7ecc352fe48fc28a0ec4"
     },
-    "lastChanged": "2026-09-18"
+    "lastChanged": "2026-09-19"
   }
 }

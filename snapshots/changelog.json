@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-09-19",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "incident-io",
+        "type": "plugin-external"
+      },
+      {
+        "name": "wingspan",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [
+      {
+        "name": "qodo",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-09-18",
     "kind": "docs",
     "docs": [
