@@ -1,9 +1,6 @@
 {
-  "new": [
-    "plugin-external|incident-io",
-    "plugin-external|wingspan"
-  ],
+  "new": [],
   "updated": [
-    "plugin-external|qodo"
+    "plugin-external|amd-skills"
   ]
 }

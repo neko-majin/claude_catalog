@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-09-23",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "Additional resources",
+            "type": "changed"
+          },
+          {
+            "heading": "Your task",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "What the visualization shows",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "amd-skills",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-09-19",
     "kind": "docs",
     "docs": [
