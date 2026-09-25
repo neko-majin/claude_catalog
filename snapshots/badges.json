@@ -1,6 +1,8 @@
 {
   "new": [
-    "plugin-external|amazon-selling-partner"
+    "plugin-external|govtribe",
+    "plugin-external|linq-alpha",
+    "plugin-external|vanguard-advisor-tools"
   ],
   "updated": []
 }

@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-09-25",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "govtribe",
+        "type": "plugin-external"
+      },
+      {
+        "name": "linq-alpha",
+        "type": "plugin-external"
+      },
+      {
+        "name": "vanguard-advisor-tools",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-24",
     "kind": "docs",
     "docs": [
