@@ -1,8 +1,6 @@
 {
-  "new": [
-    "plugin-external|govtribe",
-    "plugin-external|linq-alpha",
-    "plugin-external|vanguard-advisor-tools"
-  ],
-  "updated": []
+  "new": [],
+  "updated": [
+    "plugin-internal|code-modernization"
+  ]
 }
