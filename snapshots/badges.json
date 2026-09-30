@@ -1,6 +1,7 @@
 {
   "new": [],
   "updated": [
-    "plugin-internal|code-modernization"
+    "plugin-external|aws-startup-advisor",
+    "plugin-external|postman"
   ]
 }

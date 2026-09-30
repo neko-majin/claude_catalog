@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-09-30",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "aws-startup-advisor",
+        "type": "plugin-external"
+      },
+      {
+        "name": "postman",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-09-29",
     "kind": "docs",
     "docs": [
