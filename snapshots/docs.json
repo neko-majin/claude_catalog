@@ -1,15 +1,15 @@
 {
   "skills": {
     "sections": {
-      "（冒頭）": "ca86e9d90ef6220785989d7d09a1269d5ea46a46",
+      "（冒頭）": "67d87578705381f717f1467abd64d5f6bfeaa10f",
       "Additional resources": "63a74c34611920008719953a94fe34810f43e332",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "d3c65c684eca2ccc34b103ffa8a0234d1132206e",
-      "Environment": "093ed9b380dacd57edb85a5e5f77be29a9903ad0",
+      "Environment": "36000773c0e076b9dcb95d40b04fb5af77bfdb71",
       "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
-      "What the visualization shows": "d836f9d1b81fbcf3a12849af61285763685e3129"
+      "What the visualization shows": "4098ec49a484e2cde53bf9336fe6445bb20dcc97"
     },
-    "lastChanged": "2026-09-29"
+    "lastChanged": "2026-10-01"
   },
   "plugins": {
     "sections": {
@@ -19,9 +19,9 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "86975e8ddb9c471849cd9606ee35e1daba19dd6a"
+      "（冒頭）": "2715e25f6e50460ad49de6d105a49b1c99a371ba"
     },
-    "lastChanged": "2026-09-30"
+    "lastChanged": "2026-10-01"
   },
   "settings": {
     "sections": {

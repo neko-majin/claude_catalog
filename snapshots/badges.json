@@ -1,7 +1,6 @@
 {
-  "new": [],
-  "updated": [
-    "plugin-external|aws-startup-advisor",
-    "plugin-external|postman"
-  ]
+  "new": [
+    "plugin-internal|math-proof"
+  ],
+  "updated": []
 }

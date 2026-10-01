@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-01",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "What the visualization shows",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "math-proof",
+        "type": "plugin-internal"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-09-30",
     "kind": "docs",
     "docs": [
