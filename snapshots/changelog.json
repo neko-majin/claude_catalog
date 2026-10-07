@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-07",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-06",
     "kind": "docs",
     "docs": [
