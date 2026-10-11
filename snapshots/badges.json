@@ -1,6 +1,6 @@
 {
-  "new": [],
-  "updated": [
-    "plugin-external|hostinger"
-  ]
+  "new": [
+    "plugin-external|data-agent-kit"
+  ],
+  "updated": []
 }
