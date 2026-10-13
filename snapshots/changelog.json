@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-13",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "kind": "docs",
     "docs": [
