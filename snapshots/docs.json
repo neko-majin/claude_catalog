@@ -2,14 +2,14 @@
   "skills": {
     "sections": {
       "（冒頭）": "4f706a08c4c39786e7eca510d249aa31fce252f1",
-      "Additional resources": "1096f4fd04098d147e410fe2710259d0336b7b58",
+      "Additional resources": "1c0bfd3034a7b5c99e775e4377cd3106e7cc3ee4",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
-      "Environment": "36bf4a3a5aea018847fb7c8944b5b28b2ad96896",
+      "Environment": "41d5bc6e6613a5272a555661dd8d04049c8905e9",
       "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
       "What the visualization shows": "5c0008742a96d3a2ef29628d3c9bab45a7abcbb0"
     },
-    "lastChanged": "2026-10-15"
+    "lastChanged": "2026-10-16"
   },
   "plugins": {
     "sections": {
@@ -19,9 +19,9 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "e3948056701b013652ae2de18994a468c5311336"
+      "（冒頭）": "f773c77877f0e3cc7655a91abacc7d5875e68064"
     },
-    "lastChanged": "2026-10-15"
+    "lastChanged": "2026-10-16"
   },
   "settings": {
     "sections": {
@@ -43,9 +43,9 @@
   },
   "routines": {
     "sections": {
-      "（冒頭）": "5179a320b134aac1602cb6fde6c790c03d2b6b30"
+      "（冒頭）": "41ca07baf1f82b674b002f0f48a9f631654e5a4d"
     },
-    "lastChanged": "2026-10-15"
+    "lastChanged": "2026-10-16"
   },
   "slack": {
     "sections": {
