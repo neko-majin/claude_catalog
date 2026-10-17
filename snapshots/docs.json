@@ -2,14 +2,14 @@
   "skills": {
     "sections": {
       "（冒頭）": "4f706a08c4c39786e7eca510d249aa31fce252f1",
-      "Additional resources": "1c0bfd3034a7b5c99e775e4377cd3106e7cc3ee4",
+      "Additional resources": "a5353f43e1807908bc1abd23963fbd223d003e96",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
-      "Environment": "41d5bc6e6613a5272a555661dd8d04049c8905e9",
+      "Environment": "a2a17500fb84e3dc16d5cf51b51286870784fb9e",
       "Usage": "9267ba6b3e108f4815fb03af20f4b01d01c137af",
       "What the visualization shows": "5c0008742a96d3a2ef29628d3c9bab45a7abcbb0"
     },
-    "lastChanged": "2026-10-16"
+    "lastChanged": "2026-10-17"
   },
   "plugins": {
     "sections": {
@@ -19,9 +19,9 @@
   },
   "mcp": {
     "sections": {
-      "（冒頭）": "f773c77877f0e3cc7655a91abacc7d5875e68064"
+      "（冒頭）": "f24fdec4c3aa7f72504772e2d42dcb2b69ad125e"
     },
-    "lastChanged": "2026-10-16"
+    "lastChanged": "2026-10-17"
   },
   "settings": {
     "sections": {
@@ -31,9 +31,9 @@
   },
   "hooks": {
     "sections": {
-      "（冒頭）": "b3b2ec61f44aa01bb6bf14cea17a064c7cba7f4c"
+      "（冒頭）": "1e0a1fafb07e69eb4c0be9007ff1fe9f6722c75a"
     },
-    "lastChanged": "2026-10-15"
+    "lastChanged": "2026-10-17"
   },
   "github-actions": {
     "sections": {
