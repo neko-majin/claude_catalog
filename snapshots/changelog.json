@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-10-22",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Claude API プロジェクトで作業する",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルの読み込み場所を選択する",
+            "type": "changed"
+          },
+          {
+            "heading": "Cowork およびクラウドセッションでスキルを使用する",
+            "type": "changed"
+          },
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルがトリガーされない",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "プロジェクトスコープ",
+            "type": "changed"
+          },
+          {
+            "heading": ".mcp.json での環境変数の展開",
+            "type": "changed"
+          },
+          {
+            "heading": "ツール検索を設定する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "クラウドセッションの設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "スケジュールタスクを作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "スケジュールトリガーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "コネクタ",
+            "type": "changed"
+          },
+          {
+            "heading": "/schedule returns \"Unknown command\"",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "kind": "docs",
     "docs": [
