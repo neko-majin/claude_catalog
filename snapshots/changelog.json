@@ -1,5 +1,97 @@
 [
   {
+    "date": "2026-10-25",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "自動再接続",
+            "type": "changed"
+          },
+          {
+            "heading": "claude.ai から MCP サーバーを使用する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "Setup",
+            "type": "changed"
+          },
+          {
+            "heading": "UserPromptSubmit",
+            "type": "changed"
+          },
+          {
+            "heading": "Notification",
+            "type": "changed"
+          },
+          {
+            "heading": "CwdChanged",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeCreate",
+            "type": "changed"
+          },
+          {
+            "heading": "Windows PowerShell ツール",
+            "type": "changed"
+          },
+          {
+            "heading": "PowerShell フックでパスによってスクリプトを参照する",
+            "type": "added"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "スケジュールトリガーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "GitHub トリガーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "実行を表示して操作する",
+            "type": "changed"
+          },
+          {
+            "heading": "ルーティンという名前が残っている場所",
+            "type": "changed"
+          },
+          {
+            "heading": "\"The last run\" の警告",
+            "type": "added"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-24",
     "kind": "docs",
     "docs": [
