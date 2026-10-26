@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "非同期フックの実行方法",
+            "type": "changed"
+          },
+          {
+            "heading": "制限事項",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "kind": "docs",
     "docs": [

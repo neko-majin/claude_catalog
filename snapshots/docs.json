@@ -187,7 +187,7 @@
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "ffc35fdab3cb10a229a3ff80109b79930cae8065",
-      "PreToolUse": "3537c142c4e8d07326e10abc1ad2efd964d85f1e",
+      "PreToolUse": "57c62c3d992f0b9b763ffd7397305e5cb769ba5b",
       "PermissionRequest": "6d6c4d0f97e3989a0051d6a2463bb63662d82e7f",
       "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
@@ -224,9 +224,9 @@
       "エージェント フック設定": "9d80d5b7c2efd339f232e9e4c73421cf87ca65c9",
       "バックグラウンドでフックを実行": "8b8e308261eeb8502d327d9995c475351eb9b06a",
       "非同期フックを設定": "6db3f4211561f590e5c7bd50b56d798a051253b6",
-      "非同期フックの実行方法": "7a7302b19d7c0998413f1ef8ce011f08ca6395fa",
+      "非同期フックの実行方法": "24ca15f41d0fb4c3300d957ea9fabbf750220d2d",
       "ファイル変更後にテストを実行": "7195e284e9b3ff986cbc1b9a1161609b2a1c94c4",
-      "制限事項": "642eff229b0a7f4058dd22bd2283cf517902eddc",
+      "制限事項": "1197b72297639b8c888f750f1df2e0711edc0ad0",
       "セキュリティに関する考慮事項": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "免責事項": "87772a9fce83d5f8e1a1837529f6942eac0e605b",
       "ワークスペースの信頼": "d1cc47fbc9fbd6bf75832960b48acbd7e293061d",
@@ -235,7 +235,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-10-25"
+    "lastChanged": "2026-10-26"
   },
   "github-actions": {
     "sections": {
