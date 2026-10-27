@@ -20,7 +20,7 @@
       "セッション中にスキルを編集する": "edf430bba9b0b78610b62a73181ae937a70f79da",
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
       "スキルを設定する": "736d53a38da48487018efc12689aac2f5b551233",
-      "スキルコンテンツの種類": "1fd6ee04b8d2d0329664c6c811a009af45353ac2",
+      "スキルコンテンツの種類": "237f205c4c70cd16329f5fdeeee5e30c272f2cf1",
       "フロントマターリファレンス": "c463f77e2d24c3c114972934f106cd149f6accc4",
       "サポートファイルを追加する": "fb17a9c7c49b76dee4b273b2d6ecfaed4a9e8dec",
       "Additional resources": "0d8bd976388ba9ead14d996e5bdad3f4e634546e",
@@ -51,7 +51,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-10-24"
+    "lastChanged": "2026-10-27"
   },
   "plugins": {
     "sections": {
@@ -122,7 +122,8 @@
       "名前が 128 文字を超えるツール": "304e01b83a651dd94814c68662f4997450b4f18e",
       "特定のツールに対して承認を要求する": "311fc34355b6de940db4bc648942f8bce17ac00b",
       "2 回呼び出しても安全なツールをマークする": "bc9924e103a1f712b3cf82c092a38cc618e0fd74",
-      "MCP エリシテーション要求に応答する": "38cd26be01d51494d2397f679929db661a308f8a",
+      "MCP エリシテーション要求に応答する": "6c52ee2ca08f42daca19a1b7cbba9ca7dd0fa46e",
+      "Claude Code が宣言するエリシテーションモード": "c31a34b2425fe953d571ce24e3402d487dfed169",
       "MCP リソースを使用する": "82d9b43ae4b950e4b00f9bb2a3acbcd1189c1a30",
       "MCP リソースを参照する": "f6d2e3c17fad3b364816620b90ff4e768fe14785",
       "MCP ツール検索によるスケーリング": "53b5ca1ea28a11e2d304417bf113747659d299d4",
@@ -134,7 +135,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-10-25"
+    "lastChanged": "2026-10-27"
   },
   "settings": {
     "sections": {
@@ -187,7 +188,7 @@
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "ffc35fdab3cb10a229a3ff80109b79930cae8065",
-      "PreToolUse": "57c62c3d992f0b9b763ffd7397305e5cb769ba5b",
+      "PreToolUse": "49caed3e203b8abd65b52d91b8833a3d86687dde",
       "PermissionRequest": "6d6c4d0f97e3989a0051d6a2463bb63662d82e7f",
       "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
@@ -235,7 +236,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-10-26"
+    "lastChanged": "2026-10-27"
   },
   "github-actions": {
     "sections": {
