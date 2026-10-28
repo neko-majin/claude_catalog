@@ -6,7 +6,7 @@
       "/doctor でセットアップを確認する": "d6bc2b75c95fddc606e3b0079a8189265c8c3488",
       "アプリを実行して検証する": "b6d9a04c1ad1ee7dd19ed1e27a9cf933775a81a7",
       "各コミットの前にチェックを実行する": "e415273581629885a30ac7a63972744ca1be32a4",
-      "Claude API プロジェクトで作業する": "e501cc5ff545afa31388c346567c771590e70fd0",
+      "Claude API プロジェクトで作業する": "cd0054e8699f9c80391579170c0568af684ee798",
       "はじめに": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "最初のスキルを作成する": "0c6bceed38c7d5e5b864add8055264e9caa9f4f9",
       "Current changes": "c573c9a6d32a6cb854fa16af6ed0b7cce19068a7",
@@ -21,7 +21,7 @@
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
       "スキルを設定する": "736d53a38da48487018efc12689aac2f5b551233",
       "スキルコンテンツの種類": "237f205c4c70cd16329f5fdeeee5e30c272f2cf1",
-      "フロントマターリファレンス": "c463f77e2d24c3c114972934f106cd149f6accc4",
+      "フロントマターリファレンス": "7d8d38e164ca26a3281f52faebd761ad621ba501",
       "サポートファイルを追加する": "fb17a9c7c49b76dee4b273b2d6ecfaed4a9e8dec",
       "Additional resources": "0d8bd976388ba9ead14d996e5bdad3f4e634546e",
       "スキルを呼び出せる対象を制御する": "4458ffc7e4bfa725b3e57948b3c8a411361b1a63",
@@ -33,7 +33,7 @@
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
       "Environment": "55a489649a41a570e0e5e2a428ace17289f3b067",
-      "サブエージェントでスキルを実行する": "a36a71a07cd71ae14b626c16c1e299de2e9f7cfb",
+      "サブエージェントでスキルを実行する": "a6cf88c385c660f0a3860771c9bf64bf59aa0003",
       "Claude のスキルへのアクセスを制限する": "ab14fc37a3c9a2ce982e575ada0a22e9b0d3c928",
       "設定からスキルの表示を上書きする": "f725e72792f731414e64a6f9d035a3026abf0861",
       "使用されていないスキルを見つける": "ec7463463ad607ffa7d2b1620bcda16c587446f0",
@@ -51,7 +51,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-10-27"
+    "lastChanged": "2026-10-28"
   },
   "plugins": {
     "sections": {
@@ -73,12 +73,12 @@
       "MCP でできること": "41b72fd0e8d2b3c1b8284735d760cdc79ae64018",
       "MCP サーバーを検索してビルドする": "95f665f5d5451bf585010d785e00dd0706968f7c",
       "MCP サーバーのインストール": "3bbf7d8d594908459acb3b15444f5d2af99320bc",
-      "オプション 1: リモート HTTP サーバーを追加する": "41890162e095568b025144dee83304ba70dde07a",
+      "オプション 1: リモート HTTP サーバーを追加する": "8b8e32470a279902d2373d1443e6df23684e00c9",
       "オプション 2: リモート SSE サーバーを追加する": "9aad2b33a27e20ad07f5f70b37480047c680a600",
       "オプション 3: ローカル stdio サーバーを追加する": "970e60a83aaf2caa5603e8d3eafe707e0c1f46a4",
       "オプション 4: リモート WebSocket サーバーを追加する": "f87593ba8667702bb5b18493d308874e8ea3dc0a",
       "別のクライアント向けに書かれたセットアップ指示からサーバーを追加する": "556af85302b8b93c4ae61c8fd9c543f6d2fad053",
-      "サーバーの管理": "7e0315593f42538ad92abb63a75f144d671c7def",
+      "サーバーの管理": "ba3e0d0271a82b976c1c03444821f541c2becb07",
       "サーバーを削除せずに無効にする": "5efdd917659bc8f20812104009f0c7e069dfa8fe",
       "MCP クライアントランタイム": "e1ec87bdd47ee66ecea1f698bcc36dad2c3325d7",
       "動的ツール更新": "7eb892a988e243f6e39d831f03f0f3513fe3c3c9",
@@ -135,7 +135,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-10-27"
+    "lastChanged": "2026-10-28"
   },
   "settings": {
     "sections": {
@@ -158,10 +158,10 @@
       "優先順位の例": "f5e9740179d5daefea750f131e8d95182956f24a",
       "適用されない設定をトラブルシューティングします": "e95a6c9e02c260cdf46859642e5a615d8e1a92ab",
       "管理設定の優先順位の例外": "73941d08612a1ac7201d22669db34db3b134786c",
-      "クラウドセッションの設定": "af5207192890f94e0ff15223c2e285177734ba6f",
+      "クラウドセッションの設定": "f8260faf68d2d59a3b6c3eac2aa6bbb09d7c3bfe",
       "次は何か": "d79934845ceb5e18d5c52a5bd18fa8c762777216"
     },
-    "lastChanged": "2026-10-24"
+    "lastChanged": "2026-10-28"
   },
   "hooks": {
     "sections": {
@@ -173,7 +173,7 @@
       "Matcher パターン": "074ae3cbe779576f0dafc97434def0e89f65172e",
       "フック ハンドラー フィールド": "5836bb580f34b2c40ff856a496e424b4997a1f7f",
       "パスでフック スクリプトを参照": "a969421d8754916eafbfcd5a19b3bc04660b8b96",
-      "スキルとエージェントのフック": "122412391958d24efa748dcb5b922799a0f767b3",
+      "スキルとエージェントのフック": "c1d43960691555b9770c870f4aa6e6f8fee66e1d",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
@@ -206,8 +206,8 @@
       "CwdChanged": "7f887d841fb670250691dcc0fa35f69187e0346d",
       "DirectoryAdded": "5f8d1c2ddb3f5854c16cdda20776ceb193798441",
       "FileChanged": "a3031b88163dfae681716a6dfcec0ccf45c0abab",
-      "WorktreeCreate": "cc77978e68af7aa5fe1a59d3b192a20735c68086",
-      "WorktreeRemove": "fffb816f5fb366825cb71e9406b2d70362ab25c9",
+      "WorktreeCreate": "2e95245d2c36be57ff5e7847739984fad70f48f9",
+      "WorktreeRemove": "3f8ef13bfe3f6b70b4241109682de4ee74216ab9",
       "PreCompact": "d53b8a441f3ca70fde1ad715aa7a4c79afdc5e14",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
       "PreModelSwitch": "88b2b7efa9ab84a8b253d89c1f00c6078f0dc82f",
@@ -236,7 +236,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-10-27"
+    "lastChanged": "2026-10-28"
   },
   "github-actions": {
     "sections": {
@@ -275,8 +275,8 @@
       "（冒頭）": "5f23a2b38d9292df6abb8cd5db3ad6e956d33615",
       "ユースケースの例": "3c637a2d32995089d2034a2c6a075516692b4a4b",
       "スケジュールタスクを作成する": "3c7230195cf83bca45afc74d58432d71bfe5f635",
-      "Web から作成する": "03ff4a6f72995c4599e63e7d9de1b44624a8726c",
-      "CLI から作成する": "a36ab22419a097d583f939ae65e8997f7d68b3e6",
+      "Web から作成する": "5d36702d7a2c64d7f0d944d3d8228da1085de858",
+      "CLI から作成する": "6f2a5451513236f66d966dd5b5c6df5a76cac279",
       "トリガーを設定する": "8af1541f65899ec7cc07e1135651cec879ecdb87",
       "スケジュールトリガーを追加する": "906251e247bcca7e7b946636d8ae039a916f333f",
       "API トリガーを追加する": "658e4eb495cd802506c499b373009b07e4eb1b37",
@@ -298,7 +298,7 @@
       "\"The last run\" の警告": "37d5240cd7fae30bb6da999b9489e0bae9de1897",
       "関連リソース": "1d1180050c8753b31fdf56a37b6b078321875856"
     },
-    "lastChanged": "2026-10-25"
+    "lastChanged": "2026-10-28"
   },
   "slack": {
     "sections": {

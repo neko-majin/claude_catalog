@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-10-28",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Claude API プロジェクトで作業する",
+            "type": "changed"
+          },
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          },
+          {
+            "heading": "サブエージェントでスキルを実行する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "オプション 1: リモート HTTP サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "クラウドセッションの設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "スキルとエージェントのフック",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeCreate",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "CLI から作成する",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "kind": "docs",
     "docs": [
