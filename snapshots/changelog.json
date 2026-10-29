@@ -1,5 +1,125 @@
 [
   {
+    "date": "2026-10-29",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルの説明の山括弧が &lt; と &gt; として表示される",
+            "type": "added"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "マーケットプレイスからプラグインを取得する",
+            "type": "changed"
+          },
+          {
+            "heading": "Anthropic のマーケットプレイスをサードパーティのマーケットプレイスから区別する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "長いツール呼び出しの自動バックグラウンド化",
+            "type": "changed"
+          },
+          {
+            "heading": ".mcp.json での環境変数の展開",
+            "type": "changed"
+          },
+          {
+            "heading": "認証プロキシの背後にあるサーバーで OAuth を使用する",
+            "type": "added"
+          },
+          {
+            "heading": "カスタム認証に動的ヘッダーを使用する",
+            "type": "changed"
+          },
+          {
+            "heading": "無効な入力スキーマを持つツール",
+            "type": "changed"
+          },
+          {
+            "heading": "API が入力スキーマを拒否するツール",
+            "type": "added"
+          },
+          {
+            "heading": "MCP サーバー作成者向けのツール検索",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "設定の優先順位",
+            "type": "changed"
+          },
+          {
+            "heading": "リストは上書きではなくマージされる",
+            "type": "added"
+          },
+          {
+            "heading": "優先順位の例",
+            "type": "changed"
+          },
+          {
+            "heading": "適用されない設定のトラブルシューティング",
+            "type": "added"
+          },
+          {
+            "heading": "管理設定の優先順位の例外",
+            "type": "changed"
+          },
+          {
+            "heading": "リストは上書きではなくマージされます",
+            "type": "removed"
+          },
+          {
+            "heading": "適用されない設定をトラブルシューティングします",
+            "type": "removed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "スキルを実行",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-28",
     "kind": "docs",
     "docs": [
