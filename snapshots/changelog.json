@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-10-30",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "共通入力フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "Claude Tag チャンネルからのセッションが開始に失敗する",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "kind": "docs",
     "docs": [
