@@ -1,5 +1,127 @@
 [
   {
+    "date": "2026-10-31",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "/doctor でセットアップを確認する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "事前設定された OAuth 認証情報を使用する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フックがどのように解決されるか",
+            "type": "changed"
+          },
+          {
+            "heading": "パスでフック スクリプトを参照",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "MessageDisplay",
+            "type": "changed"
+          },
+          {
+            "heading": "PreModelSwitch",
+            "type": "changed"
+          },
+          {
+            "heading": "Elicitation",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "手動セットアップ",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "/schedule returns \"Unknown command\"",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "前提条件",
+            "type": "changed"
+          },
+          {
+            "heading": "\"This workspace isn't set up for Claude Tag yet\"",
+            "type": "changed"
+          },
+          {
+            "heading": "\"The legacy Claude in Slack bot is retired\"",
+            "type": "changed"
+          },
+          {
+            "heading": "関連リソース",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "runway-api",
+        "type": "plugin-external"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-10-30",
     "kind": "docs",
     "docs": [

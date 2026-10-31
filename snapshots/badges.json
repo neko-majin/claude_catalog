@@ -1,6 +1,6 @@
 {
-  "new": [
-    "plugin-external|data-agent-kit"
-  ],
-  "updated": []
+  "new": [],
+  "updated": [
+    "plugin-external|runway-api"
+  ]
 }

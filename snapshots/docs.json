@@ -3,7 +3,7 @@
     "sections": {
       "（冒頭）": "acba80b0a51181d51baebf39f77ae00c9439e55d",
       "バンドルされたスキル": "1f382948e9d25627753ae1aa87106beeb7088137",
-      "/doctor でセットアップを確認する": "d6bc2b75c95fddc606e3b0079a8189265c8c3488",
+      "/doctor でセットアップを確認する": "70da0a78711522eea18994fe56eb9facc7edba39",
       "アプリを実行して検証する": "b6d9a04c1ad1ee7dd19ed1e27a9cf933775a81a7",
       "各コミットの前にチェックを実行する": "e415273581629885a30ac7a63972744ca1be32a4",
       "Claude API プロジェクトで作業する": "cd0054e8699f9c80391579170c0568af684ee798",
@@ -52,7 +52,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-10-30"
+    "lastChanged": "2026-10-31"
   },
   "plugins": {
     "sections": {
@@ -102,7 +102,7 @@
       "リモート MCP サーバーで認証する": "34cff170c20e37ffd158a6a45adca1adeda8aa20",
       "コマンドラインから認証する": "b1f5c19128cfdf79ddd2ebbf4c64d69ce86c539b",
       "固定 OAuth コールバックポートを使用する": "f4bb4dd8f35737e1cbe39805c0a2dc9d06ae1070",
-      "事前設定された OAuth 認証情報を使用する": "8cc3e175d482443da07d8d5bcbe2c42c090f319a",
+      "事前設定された OAuth 認証情報を使用する": "74a71f963c5fa2f764461195cae64ad8b9ea45a7",
       "OAuth メタデータ検出を上書きする": "f63d1c37c5ba2d4da8183460577f345321e80eb9",
       "OAuth スコープを制限する": "f21c2a0ecfea87d397f3de711f64e25acbfbcbfe",
       "認証プロキシの背後にあるサーバーで OAuth を使用する": "e0311f272ffdf33f0947189e763fb50a65e837d7",
@@ -138,7 +138,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-10-29"
+    "lastChanged": "2026-10-31"
   },
   "settings": {
     "sections": {
@@ -170,12 +170,12 @@
     "sections": {
       "（冒頭）": "c8d662867d685617c5ea8fd700244794b28c9046",
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
-      "フックがどのように解決されるか": "ad68fd5ef281112b8f26a9ad108608b0521f12cc",
+      "フックがどのように解決されるか": "e7fd5b6589f23e806f8f2acba04465ffe0d57336",
       "設定": "38b69de0dfd52083dcf8d13b14798d706c053206",
       "フック位置": "039b9b2ebd2322d3a70b8ad52d78041d0054e2f0",
       "Matcher パターン": "074ae3cbe779576f0dafc97434def0e89f65172e",
       "フック ハンドラー フィールド": "5836bb580f34b2c40ff856a496e424b4997a1f7f",
-      "パスでフック スクリプトを参照": "a969421d8754916eafbfcd5a19b3bc04660b8b96",
+      "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
       "スキルとエージェントのフック": "c1d43960691555b9770c870f4aa6e6f8fee66e1d",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
@@ -183,14 +183,14 @@
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
       "終了コード出力": "7482ebe8bda9f749d60b4108b4fe91a0b09954f6",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
-      "JSON 出力": "bc46ecc6d9b55a81224a5a152dc15ce4d3e12d9a",
+      "JSON 出力": "9c5fd8d2c37f5e29245cefecd67b362ed0271f2e",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "b35df0aa61447ccb0a238ce866013e0f73e474cf",
       "Setup": "bf45992235347a5334bb4179648d9890ad2b7136",
       "InstructionsLoaded": "47b7cbb80d549fbed435de6adc3e1cfe2beead9c",
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
-      "MessageDisplay": "ffc35fdab3cb10a229a3ff80109b79930cae8065",
+      "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
       "PreToolUse": "1f0a6033a1b67115bec8a1dfa9a29c880a9d5647",
       "PermissionRequest": "6d6c4d0f97e3989a0051d6a2463bb63662d82e7f",
       "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
@@ -213,10 +213,10 @@
       "WorktreeRemove": "3f8ef13bfe3f6b70b4241109682de4ee74216ab9",
       "PreCompact": "d53b8a441f3ca70fde1ad715aa7a4c79afdc5e14",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
-      "PreModelSwitch": "88b2b7efa9ab84a8b253d89c1f00c6078f0dc82f",
+      "PreModelSwitch": "93d0f929d3a928a83085fc88f34ced0ea0a898ef",
       "PostModelSwitch": "dcdc21646c507da7413d5356a57486d90f57b315",
       "SessionEnd": "0f9580315c4581655bddd1d65ab9ea6923ae4041",
-      "Elicitation": "6e0401aedcdd62aa308db688fc9492402e6cfc00",
+      "Elicitation": "901b3391b02c76627e892c704bbc097a59e7dd5a",
       "ElicitationResult": "a5c1ea349ad079ab6ad97cc2940e50f53f753581",
       "プロンプト ベースのフック": "dea5651f692f26f56e69daa9da5b45c74009c639",
       "プロンプト ベースのフックの仕組み": "b191c7f4c181c37de487659161d33749ab8a2faf",
@@ -239,14 +239,14 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-10-30"
+    "lastChanged": "2026-10-31"
   },
   "github-actions": {
     "sections": {
       "（冒頭）": "f7fd105763e77c46fbb5cf4506a4d64417880ecf",
       "セットアップ": "abcaccaa44a06222a2b37ca5d784bca23f3ec86e",
       "クイックセットアップ": "e2e5c210bb380a676f7fb5b849de19f6ddfe6b38",
-      "手動セットアップ": "d998980b301216309bf8294e913e66e227e0183b",
+      "手動セットアップ": "e029dfc5335cd6d165d0ec8925159303522a4c49",
       "組織向けセットアップ": "5c7c63f48209cbec55e5529af273d6160557f5cc",
       "アンインストール": "adf1e3241546f7683a74a695b2d5894de201f998",
       "GitHub App 権限": "b401525d5c4e8b5061c00b2023904e56184eb0ed",
@@ -271,14 +271,14 @@
       "ベータ版からアップグレード": "df197d4eddbbb174ddcf9e10170c1c71cafe81fe",
       "次のステップ": "0e7265bfa2a35071be0424b4ebf62bf14825a51b"
     },
-    "lastChanged": "2026-10-29"
+    "lastChanged": "2026-10-31"
   },
   "routines": {
     "sections": {
-      "（冒頭）": "5f23a2b38d9292df6abb8cd5db3ad6e956d33615",
+      "（冒頭）": "e7b80087c39590953532e8d94a71295e5ff74914",
       "ユースケースの例": "3c637a2d32995089d2034a2c6a075516692b4a4b",
       "スケジュールタスクを作成する": "3c7230195cf83bca45afc74d58432d71bfe5f635",
-      "Web から作成する": "5d36702d7a2c64d7f0d944d3d8228da1085de858",
+      "Web から作成する": "42f715d83a9666144a933634a8cfadf87a6cc0a9",
       "CLI から作成する": "6f2a5451513236f66d966dd5b5c6df5a76cac279",
       "トリガーを設定する": "8af1541f65899ec7cc07e1135651cec879ecdb87",
       "スケジュールトリガーを追加する": "906251e247bcca7e7b946636d8ae039a916f333f",
@@ -296,18 +296,18 @@
       "使用量と制限": "564e7651e2c37d7344763f25ff78d97fe025f285",
       "ルーティンという名前が残っている場所": "995afaaf45f05db29eae764640ce05295151abe9",
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "/schedule returns \"Unknown command\"": "930aa73ca48138566dc22458d44d1cc1255136dc",
+      "/schedule returns \"Unknown command\"": "e03491ad7e0a8db3948aca26a536b05b7eb6a099",
       "\"Routines are disabled by your organization's policy\"": "59d694147990644146637493be1d1b924b5a7de7",
       "\"The last run\" の警告": "37d5240cd7fae30bb6da999b9489e0bae9de1897",
       "関連リソース": "1d1180050c8753b31fdf56a37b6b078321875856"
     },
-    "lastChanged": "2026-10-28"
+    "lastChanged": "2026-10-31"
   },
   "slack": {
     "sections": {
-      "（冒頭）": "c84e7daac44abda6c35992511ce371e722ca2759",
+      "（冒頭）": "b9749364aea700eb15604523d93ccc635ce92450",
       "ユースケース": "c94441ddb9661a506daa14cb4110f399b3c1c10e",
-      "前提条件": "a3153adf0e095c5cfffa0ac545df3e75ef75bf90",
+      "前提条件": "4662178abd6a82feaf46c97f49e180fb640bd6d3",
       "Slack での Claude Code のセットアップ": "1d7388d8cf0ea9b607c4bfac0db04359c5e64a4e",
       "仕組み": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "自動検出": "936ec0d5f362a9b2cde74b0f95ea0df7b283ab9d",
@@ -325,8 +325,8 @@
       "効果的なリクエストの作成": "4c20f4ef563db9456df09f22575a55c52c356871",
       "Slack とウェブの使い分け": "0b5f2513c512eafeabe586a5baaf92595dae8692",
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "\"This workspace isn't set up for Claude Tag yet\"": "c5374ec9fed86550618b77045e19fd5542893782",
-      "\"The legacy Claude in Slack bot is retired\"": "90a80677a88480f02643e00066f5e7836c7045ef",
+      "\"This workspace isn't set up for Claude Tag yet\"": "418e7383817beef2a24482dbbaa6802c91bccb2e",
+      "\"The legacy Claude in Slack bot is retired\"": "8c135f1c3d61792a3ffe5b09438113bd1bfcb401",
       "\"Claude Code is not enabled for your account\"": "7a69124f0eeba034905124418b0fd1dcb28c63c1",
       "セッションが開始しない": "444a105d975f3a083a090af68cd29ad26a0ce796",
       "Claude Tag チャンネルからのセッションが開始に失敗する": "77be635ffe23c0442a10253252c84e571d606c23",
@@ -334,8 +334,8 @@
       "誤ったリポジトリが選択された": "6914fbcd9e2530be361fd7e47d38dd1652001d0b",
       "認証エラー": "90817b6c7e54b0a47fa66990ec867e5f7a828bb7",
       "現在の制限事項": "0749c5ea09cb9d278ed61c78164197f638de48bb",
-      "関連リソース": "7a3bb63d2dd378d2ce1684b3d5411a66f022b435"
+      "関連リソース": "e620879c2eeb3b3c15cdaa3c48989256a814d400"
     },
-    "lastChanged": "2026-10-30"
+    "lastChanged": "2026-10-31"
   }
 }
