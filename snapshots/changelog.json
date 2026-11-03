@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-11-03",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "Anthropic のマーケットプレイスをサードパーティのマーケットプレイスから区別する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "リモート MCP サーバーで認証する",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP エリシテーション要求に応答する",
+            "type": "changed"
+          },
+          {
+            "heading": "クラウドセッションでエリシテーション要求に回答する",
+            "type": "added"
+          },
+          {
+            "heading": "ツール検索を設定する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "編集がいつ有効になるか",
+            "type": "changed"
+          },
+          {
+            "heading": "管理設定の優先順位の例外",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "プロンプト ベースのフックの仕組み",
+            "type": "changed"
+          },
+          {
+            "heading": "プロンプト フック設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "Slack での Claude Code のセットアップ",
+            "type": "changed"
+          },
+          {
+            "heading": "セッションフロー",
+            "type": "changed"
+          },
+          {
+            "heading": "メッセージアクション",
+            "type": "changed"
+          },
+          {
+            "heading": "リポジトリ選択",
+            "type": "changed"
+          },
+          {
+            "heading": "誤ったリポジトリが選択された",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "kind": "docs",
     "docs": [
