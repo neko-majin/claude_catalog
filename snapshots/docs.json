@@ -182,7 +182,7 @@
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "7482ebe8bda9f749d60b4108b4fe91a0b09954f6",
+      "終了コード出力": "3025765a1aba9faae118dc9e6de87841af53b591",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
       "JSON 出力": "9c5fd8d2c37f5e29245cefecd67b362ed0271f2e",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
@@ -192,7 +192,7 @@
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
-      "PreToolUse": "1f0a6033a1b67115bec8a1dfa9a29c880a9d5647",
+      "PreToolUse": "10fe438edf865f683119b1db9624f43f4aca7fb9",
       "PermissionRequest": "6d6c4d0f97e3989a0051d6a2463bb63662d82e7f",
       "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-03"
+    "lastChanged": "2026-11-04"
   },
   "github-actions": {
     "sections": {
@@ -276,7 +276,7 @@
   },
   "routines": {
     "sections": {
-      "（冒頭）": "e7b80087c39590953532e8d94a71295e5ff74914",
+      "（冒頭）": "4b60eb187bb8564fe6cdae51af1890455e4d0f45",
       "ユースケースの例": "3c637a2d32995089d2034a2c6a075516692b4a4b",
       "スケジュールタスクを作成する": "3c7230195cf83bca45afc74d58432d71bfe5f635",
       "Web から作成する": "02d3a33a5b71f99733efb2c25e1d70626f7276a8",
@@ -295,14 +295,14 @@
       "実行が確認なしでアーティファクトを公開する場合": "f00b0c94843ed24c6c39481029f349e4c804deea",
       "環境とネットワークアクセス": "35356d923598c6b87b6ad67a7a4c57464dced703",
       "使用量と制限": "564e7651e2c37d7344763f25ff78d97fe025f285",
-      "ルーティンという名前が残っている場所": "995afaaf45f05db29eae764640ce05295151abe9",
+      "ルーティンという名前が残っている場所": "33c1b85a077a009372fe79be10677d73e1006e77",
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "/schedule returns \"Unknown command\"": "e03491ad7e0a8db3948aca26a536b05b7eb6a099",
-      "\"Routines are disabled by your organization's policy\"": "59d694147990644146637493be1d1b924b5a7de7",
+      "組織でスケジュールタスクがオフになっている": "b7810a6bd61e94c2af2ed10870d12ba8dad4bfdb",
       "\"The last run\" の警告": "37d5240cd7fae30bb6da999b9489e0bae9de1897",
       "関連リソース": "1d1180050c8753b31fdf56a37b6b078321875856"
     },
-    "lastChanged": "2026-11-03"
+    "lastChanged": "2026-11-04"
   },
   "slack": {
     "sections": {

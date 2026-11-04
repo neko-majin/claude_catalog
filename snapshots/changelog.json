@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-11-04",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "ルーティンという名前が残っている場所",
+            "type": "changed"
+          },
+          {
+            "heading": "組織でスケジュールタスクがオフになっている",
+            "type": "added"
+          },
+          {
+            "heading": "\"Routines are disabled by your organization's policy\"",
+            "type": "removed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-03",
     "kind": "docs",
     "docs": [
