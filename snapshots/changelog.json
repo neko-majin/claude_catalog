@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-11-05",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "壊れた設定ファイルを修正する",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-04",
     "kind": "docs",
     "docs": [
