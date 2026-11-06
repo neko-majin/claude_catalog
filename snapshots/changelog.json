@@ -1,5 +1,91 @@
 [
   {
+    "date": "2026-11-06",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フックがどのように解決されるか",
+            "type": "changed"
+          },
+          {
+            "heading": "設定",
+            "type": "changed"
+          },
+          {
+            "heading": "Matcher パターン",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "PermissionRequest",
+            "type": "changed"
+          },
+          {
+            "heading": "Notification",
+            "type": "changed"
+          },
+          {
+            "heading": "PreCompact",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "ユースケース",
+            "type": "changed"
+          },
+          {
+            "heading": "コンテキスト収集",
+            "type": "changed"
+          },
+          {
+            "heading": "効果的なリクエストの作成",
+            "type": "changed"
+          },
+          {
+            "heading": "Slack とウェブの使い分け",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "champion-kit",
+        "type": "plugin-internal"
+      },
+      {
+        "name": "xcode",
+        "type": "plugin-external"
+      }
+    ],
+    "updated": [],
+    "removed": []
+  },
+  {
     "date": "2026-11-05",
     "kind": "docs",
     "docs": [

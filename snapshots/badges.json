@@ -1,6 +1,7 @@
 {
-  "new": [],
-  "updated": [
-    "plugin-external|runway-api"
-  ]
+  "new": [
+    "plugin-internal|champion-kit",
+    "plugin-external|xcode"
+  ],
+  "updated": []
 }

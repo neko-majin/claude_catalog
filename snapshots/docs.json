@@ -171,10 +171,10 @@
     "sections": {
       "（冒頭）": "c8d662867d685617c5ea8fd700244794b28c9046",
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
-      "フックがどのように解決されるか": "e7fd5b6589f23e806f8f2acba04465ffe0d57336",
-      "設定": "38b69de0dfd52083dcf8d13b14798d706c053206",
+      "フックがどのように解決されるか": "a922fbc2f68aa09bc5fcae96826e9dae52d5e87f",
+      "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
       "フック位置": "039b9b2ebd2322d3a70b8ad52d78041d0054e2f0",
-      "Matcher パターン": "074ae3cbe779576f0dafc97434def0e89f65172e",
+      "Matcher パターン": "84ea808d86e42968131990d2bd70f7e8e7fb8057",
       "フック ハンドラー フィールド": "505235f9ec81f15e8013a0b0ae132eca30238261",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
       "スキルとエージェントのフック": "c1d43960691555b9770c870f4aa6e6f8fee66e1d",
@@ -182,9 +182,9 @@
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "3025765a1aba9faae118dc9e6de87841af53b591",
+      "終了コード出力": "88b8c863d177cb0f4933c1f8457ff84e7bd16d99",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
-      "JSON 出力": "9c5fd8d2c37f5e29245cefecd67b362ed0271f2e",
+      "JSON 出力": "dd459e26ac049eb805fec9e6f54842f848604618",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "b35df0aa61447ccb0a238ce866013e0f73e474cf",
       "Setup": "bf45992235347a5334bb4179648d9890ad2b7136",
@@ -192,13 +192,13 @@
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
-      "PreToolUse": "10fe438edf865f683119b1db9624f43f4aca7fb9",
-      "PermissionRequest": "6d6c4d0f97e3989a0051d6a2463bb63662d82e7f",
+      "PreToolUse": "7e0ed7d38d9d34fad44d1b52e4dd465e967e5956",
+      "PermissionRequest": "35c9470b9675790639feae30c573a74a57cdbca3",
       "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
       "PermissionDenied": "69535c8ee48622e2134867617fe7ee5bc5bf00e5",
-      "Notification": "4226ab9536eb8b8015d6b3beb3cd4c86b1f50d01",
+      "Notification": "9fbc15cfcdbf486437bec8e60f773600eac01158",
       "SubagentStart": "6f2cdd75a133ce6fb6c07d8eed584ac8f98f573f",
       "SubagentStop": "940fabfd9078c311823a1859e7817fea7da6860c",
       "TaskCreated": "e4a11d773c901158bd0b5f4a1be64db6f8dfd312",
@@ -212,7 +212,7 @@
       "FileChanged": "a3031b88163dfae681716a6dfcec0ccf45c0abab",
       "WorktreeCreate": "2e95245d2c36be57ff5e7847739984fad70f48f9",
       "WorktreeRemove": "3f8ef13bfe3f6b70b4241109682de4ee74216ab9",
-      "PreCompact": "d53b8a441f3ca70fde1ad715aa7a4c79afdc5e14",
+      "PreCompact": "200a564fce443e23cc9eaf79275435a3087e218c",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
       "PreModelSwitch": "93d0f929d3a928a83085fc88f34ced0ea0a898ef",
       "PostModelSwitch": "dcdc21646c507da7413d5356a57486d90f57b315",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-04"
+    "lastChanged": "2026-11-06"
   },
   "github-actions": {
     "sections": {
@@ -307,12 +307,12 @@
   "slack": {
     "sections": {
       "（冒頭）": "b9749364aea700eb15604523d93ccc635ce92450",
-      "ユースケース": "c94441ddb9661a506daa14cb4110f399b3c1c10e",
+      "ユースケース": "d91bee32a1063f4996bed88bb0e27173632ee193",
       "前提条件": "4662178abd6a82feaf46c97f49e180fb640bd6d3",
       "Slack での Claude Code のセットアップ": "9f6bdd6d74221538fe4db7e4d9782fd4337544ec",
       "仕組み": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "自動検出": "936ec0d5f362a9b2cde74b0f95ea0df7b283ab9d",
-      "コンテキスト収集": "39ee435aa2f198beeb19feb1a07800b9cac6f78c",
+      "コンテキスト収集": "00dd46659d3787d0d56f84227977a9818f74b61f",
       "セッションフロー": "940c59eeed0e9e02cf092293903b42847e80ee4d",
       "ユーザーインターフェース要素": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "メッセージアクション": "3165f6d511a239db6a26d28c84324e21bd5ee6c6",
@@ -323,8 +323,8 @@
       "チャネルベースのアクセス制御": "a7e537867795797facc34cdac4eb797ad53647e4",
       "どこでアクセスできるか": "7ffd88ee75b09b58718670f4748a296f7444c09f",
       "ベストプラクティス": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "効果的なリクエストの作成": "4c20f4ef563db9456df09f22575a55c52c356871",
-      "Slack とウェブの使い分け": "0b5f2513c512eafeabe586a5baaf92595dae8692",
+      "効果的なリクエストの作成": "57439b9111f1cc55cb6039ac23ebc8392f6111f4",
+      "Slack とウェブの使い分け": "4d261f2fbbed82fdcb641fe7b8d4a6061d51e1c1",
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "\"This workspace isn't set up for Claude Tag yet\"": "418e7383817beef2a24482dbbaa6802c91bccb2e",
       "\"The legacy Claude in Slack bot is retired\"": "8c135f1c3d61792a3ffe5b09438113bd1bfcb401",
@@ -337,6 +337,6 @@
       "現在の制限事項": "0749c5ea09cb9d278ed61c78164197f638de48bb",
       "関連リソース": "e620879c2eeb3b3c15cdaa3c48989256a814d400"
     },
-    "lastChanged": "2026-11-03"
+    "lastChanged": "2026-11-06"
   }
 }
