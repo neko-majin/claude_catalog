@@ -79,9 +79,9 @@
       "オプション 3: ローカル stdio サーバーを追加する": "970e60a83aaf2caa5603e8d3eafe707e0c1f46a4",
       "オプション 4: リモート WebSocket サーバーを追加する": "f87593ba8667702bb5b18493d308874e8ea3dc0a",
       "別のクライアント向けに書かれたセットアップ指示からサーバーを追加する": "556af85302b8b93c4ae61c8fd9c543f6d2fad053",
-      "サーバーの管理": "8723466e4c292511a55579b5e390b0c2ef160161",
+      "サーバーの管理": "9bfc529cb125e81d9482e2631633d07632414ce4",
       "サーバーを削除せずに無効にする": "5efdd917659bc8f20812104009f0c7e069dfa8fe",
-      "MCP クライアントランタイム": "e1ec87bdd47ee66ecea1f698bcc36dad2c3325d7",
+      "MCP クライアントランタイム": "94627dd64950e26b77887d4e8ae4cba5d85f90b5",
       "動的ツール更新": "7eb892a988e243f6e39d831f03f0f3513fe3c3c9",
       "自動再接続": "e0e55b87c4d3ca5b90e86deab28f54e1d4c3437b",
       "チャネルでメッセージをプッシュする": "52bad9d7d56350b46e3839ff69ab09014424200d",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-03"
+    "lastChanged": "2026-11-07"
   },
   "settings": {
     "sections": {
@@ -192,9 +192,9 @@
       "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
-      "PreToolUse": "7e0ed7d38d9d34fad44d1b52e4dd465e967e5956",
+      "PreToolUse": "2a9d4f099900ba94602a07040cd05ff1d81bec6f",
       "PermissionRequest": "35c9470b9675790639feae30c573a74a57cdbca3",
-      "PostToolUse": "2d4b2d8f78b871f0eda19f3729e9976af54aeb26",
+      "PostToolUse": "db217fd4bb9e29f14604fb42003486890dc8244e",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
       "PermissionDenied": "69535c8ee48622e2134867617fe7ee5bc5bf00e5",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-06"
+    "lastChanged": "2026-11-07"
   },
   "github-actions": {
     "sections": {

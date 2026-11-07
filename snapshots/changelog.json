@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-11-07",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP クライアントランタイム",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "kind": "docs",
     "docs": [
