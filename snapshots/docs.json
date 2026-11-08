@@ -88,7 +88,7 @@
       "MCP ツール呼び出しの時間制限": "c693e50deb60a0c1647b19d5c0e31bc2a017287b",
       "長いツール呼び出しの自動バックグラウンド化": "c29703e91d19858299d6410fbd9b805f7db14ac3",
       "サーバー上で実行される MCP タスク": "01915da52fcea16069119c58bd04dfc0d4da955b",
-      "サーバー作成者向けの MCP タスク": "142c7971acdaa4da9665e93f3ea85f29ba578aa7",
+      "サーバー作成者向けの MCP タスク": "ac80e5171a5cadf6cd153e687bd602c7506da68d",
       "プラグイン提供の MCP サーバー": "3a31f60e36974c223f144fd923f0ed4afec32e0e",
       "MCP インストールスコープ": "9be3e10d61a458dc64688815fa030a169211b587",
       "ローカルスコープ": "1a93da09dc458b48d8dae94be14228a2e1c759f6",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-07"
+    "lastChanged": "2026-11-08"
   },
   "settings": {
     "sections": {
@@ -193,7 +193,7 @@
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
       "PreToolUse": "2a9d4f099900ba94602a07040cd05ff1d81bec6f",
-      "PermissionRequest": "35c9470b9675790639feae30c573a74a57cdbca3",
+      "PermissionRequest": "49bb56c508d83bfb56ce7e14f1630234e5c83f63",
       "PostToolUse": "db217fd4bb9e29f14604fb42003486890dc8244e",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-07"
+    "lastChanged": "2026-11-08"
   },
   "github-actions": {
     "sections": {
