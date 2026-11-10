@@ -1,5 +1,157 @@
 [
   {
+    "date": "2026-11-10",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "バンドルされたスキル",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "MCP サーバーのインストール",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 1: リモート HTTP サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 2: リモート SSE サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 3: ローカル stdio サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 4: リモート WebSocket サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "別のクライアント向けのセットアップ手順からサーバーを追加する",
+            "type": "added"
+          },
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバーを削除せずに無効にする",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP クライアントランタイム",
+            "type": "changed"
+          },
+          {
+            "heading": "動的なツールの更新",
+            "type": "added"
+          },
+          {
+            "heading": "自動再接続",
+            "type": "changed"
+          },
+          {
+            "heading": "チャネルでメッセージをプッシュする",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP ツール呼び出しの時間制限",
+            "type": "changed"
+          },
+          {
+            "heading": "長いツール呼び出しの自動バックグラウンド化",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー上で実行される MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー作成者向けの MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "プラグインが提供する MCP サーバー",
+            "type": "added"
+          },
+          {
+            "heading": "ツール検索を設定する",
+            "type": "changed"
+          },
+          {
+            "heading": "別のクライアント向けに書かれたセットアップ指示からサーバーを追加する",
+            "type": "removed"
+          },
+          {
+            "heading": "動的ツール更新",
+            "type": "removed"
+          },
+          {
+            "heading": "プラグイン提供の MCP サーバー",
+            "type": "removed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "チームと設定を共有する",
+            "type": "changed"
+          },
+          {
+            "heading": "管理設定の優先順位の例外",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PermissionRequest",
+            "type": "changed"
+          },
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "GitHub App 権限",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "kind": "docs",
     "docs": [
