@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-11",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "壊れた設定ファイルを修正する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "環境とネットワークアクセス",
+            "type": "changed"
+          },
+          {
+            "heading": "関連リソース",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "kind": "docs",
     "docs": [
