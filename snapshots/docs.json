@@ -6,7 +6,7 @@
       "/doctor でセットアップを確認する": "70da0a78711522eea18994fe56eb9facc7edba39",
       "アプリを実行して検証する": "b6d9a04c1ad1ee7dd19ed1e27a9cf933775a81a7",
       "各コミットの前にチェックを実行する": "e415273581629885a30ac7a63972744ca1be32a4",
-      "Claude API プロジェクトで作業する": "cd0054e8699f9c80391579170c0568af684ee798",
+      "Claude API プロジェクトで作業する": "2572811eb504b06e356ad703d4723426e3a6a76b",
       "はじめに": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "最初のスキルを作成する": "0c6bceed38c7d5e5b864add8055264e9caa9f4f9",
       "Current changes": "c573c9a6d32a6cb854fa16af6ed0b7cce19068a7",
@@ -52,7 +52,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-10"
+    "lastChanged": "2026-11-12"
   },
   "plugins": {
     "sections": {
@@ -194,7 +194,7 @@
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
       "PreToolUse": "2a9d4f099900ba94602a07040cd05ff1d81bec6f",
       "PermissionRequest": "546bc7034ab4a444016cbc322447c446601733f3",
-      "PostToolUse": "2d1e8e6bb30e3d1b41071d0ea674322233c60cec",
+      "PostToolUse": "821dd9c60dd811611300f62033e69873e4f8838d",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
       "PermissionDenied": "69535c8ee48622e2134867617fe7ee5bc5bf00e5",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-11"
+    "lastChanged": "2026-11-12"
   },
   "github-actions": {
     "sections": {

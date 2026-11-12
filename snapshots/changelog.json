@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-11-12",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Claude API プロジェクトで作業する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "kind": "docs",
     "docs": [
