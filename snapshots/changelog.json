@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "編集がいつ有効になるか",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "ConfigChange",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "環境とネットワークアクセス",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "kind": "diff",
+    "added": [],
+    "updated": [],
+    "removed": [
+      {
+        "name": "airwallex-dev",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "kind": "docs",
     "docs": [

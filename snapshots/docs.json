@@ -154,7 +154,7 @@
       "/config メニューを使用する": "a4699bb0c24126cc5dca0aeed238ca73cd6f144e",
       "設定ファイルを編集する": "75ead25b9fd5cee700877510f328792e9e4338f9",
       "1 つのセッションの設定を変更する": "900002e24ca9f2b26844db4e41f118e3239ce59d",
-      "編集がいつ有効になるか": "3451587b0c2de635fb3a2e1ab96d0b3f68c2cf07",
+      "編集がいつ有効になるか": "3c05747e3ffead69422b9b874e66fa009c40a052",
       "読み込まれたものを確認する": "b32bfdbf454be5d802543b090e25af5df3a40f0d",
       "壊れた設定ファイルを修正する": "f874bf48c3a9e21e4a0c98b6c2ed17d02c90cb20",
       "設定の優先順位": "f6eb2f41ead70e6332e0bd3858b15b15a3fe8fde",
@@ -165,7 +165,7 @@
       "クラウドセッションの設定": "f8260faf68d2d59a3b6c3eac2aa6bbb09d7c3bfe",
       "次は何か": "d79934845ceb5e18d5c52a5bd18fa8c762777216"
     },
-    "lastChanged": "2026-11-11"
+    "lastChanged": "2026-11-13"
   },
   "hooks": {
     "sections": {
@@ -206,12 +206,12 @@
       "Stop": "dc2f52aebb017ef6ba4a40ed3a62836cd7a1670b",
       "StopFailure": "72b2eca7166f30a82c0021f080ff1581a88a35e6",
       "TeammateIdle": "55500d3f72637df442267bbbcb1613c9d99dd581",
-      "ConfigChange": "e08dab60d49668e04772cb35f57a97df08984a17",
+      "ConfigChange": "73137d8df2d3455307ad3bfc06b19400c60f3bc3",
       "CwdChanged": "7f887d841fb670250691dcc0fa35f69187e0346d",
       "DirectoryAdded": "5f8d1c2ddb3f5854c16cdda20776ceb193798441",
       "FileChanged": "a3031b88163dfae681716a6dfcec0ccf45c0abab",
       "WorktreeCreate": "2e95245d2c36be57ff5e7847739984fad70f48f9",
-      "WorktreeRemove": "3f8ef13bfe3f6b70b4241109682de4ee74216ab9",
+      "WorktreeRemove": "47b3954da3cf30a9327da1c10c9c0499e61eeee5",
       "PreCompact": "200a564fce443e23cc9eaf79275435a3087e218c",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
       "PreModelSwitch": "93d0f929d3a928a83085fc88f34ced0ea0a898ef",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-12"
+    "lastChanged": "2026-11-13"
   },
   "github-actions": {
     "sections": {
@@ -293,7 +293,7 @@
       "コネクタ": "4e781f8cac5f8fd7049963c1e4d29ca332126170",
       "実行中の権限プロンプト": "bed35ad833a47700b8e91a64b6b7a36acc064d23",
       "実行が確認なしでアーティファクトを公開する場合": "f00b0c94843ed24c6c39481029f349e4c804deea",
-      "環境とネットワークアクセス": "539431896bb983cab96c8d27ef4b7b79e375f74a",
+      "環境とネットワークアクセス": "23ce9b355c084af8f55effb254abfd078c04093f",
       "使用量と制限": "564e7651e2c37d7344763f25ff78d97fe025f285",
       "ルーティンという名前が残っている場所": "33c1b85a077a009372fe79be10677d73e1006e77",
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
@@ -302,7 +302,7 @@
       "\"The last run\" の警告": "37d5240cd7fae30bb6da999b9489e0bae9de1897",
       "関連リソース": "fbdf159332f0a1f6e7830c076a23fa25153ac282"
     },
-    "lastChanged": "2026-11-11"
+    "lastChanged": "2026-11-13"
   },
   "slack": {
     "sections": {
