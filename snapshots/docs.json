@@ -2,7 +2,7 @@
   "skills": {
     "sections": {
       "（冒頭）": "acba80b0a51181d51baebf39f77ae00c9439e55d",
-      "バンドルされたスキル": "e163eb5354f76bdc1893651b6aba610ee345cc8b",
+      "バンドルされたスキル": "d7f7660dfc7e2cd955cfee697b588c7db45e3a74",
       "/doctor でセットアップを確認する": "70da0a78711522eea18994fe56eb9facc7edba39",
       "アプリを実行して検証する": "b6d9a04c1ad1ee7dd19ed1e27a9cf933775a81a7",
       "各コミットの前にチェックを実行する": "e415273581629885a30ac7a63972744ca1be32a4",
@@ -17,7 +17,7 @@
       "同じ名前のスキルを解決する": "506145fc9c03bdcefdad9432b1cf5503c40d294e",
       "Cowork とクラウドセッションでスキルを使う": "4c1e28f399601d5412b7030b78ec440d9fc0c34a",
       "claude.ai から同期されたスキル": "4c76615cabb1e6971018b20c0474cccaecb90980",
-      "セッション中にスキルを編集する": "edf430bba9b0b78610b62a73181ae937a70f79da",
+      "セッション中にスキルを編集する": "8b65e3b71dafda9bf83c03af913e1f331c11813d",
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
       "スキルを設定する": "736d53a38da48487018efc12689aac2f5b551233",
       "スキルコンテンツの種類": "237f205c4c70cd16329f5fdeeee5e30c272f2cf1",
@@ -32,7 +32,7 @@
       "動的コンテキストを注入する": "19582289b04d55f45ad527618ca0750ab1a9c901",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
-      "Environment": "8cf2f0c72ac9055aa459c11576e1906c0766efd0",
+      "Environment": "15ec2107469e391fc6bfcf1a8c78d882a67fd26b",
       "サブエージェントでスキルを実行する": "a6cf88c385c660f0a3860771c9bf64bf59aa0003",
       "Claude のスキルへのアクセスを制限する": "ab14fc37a3c9a2ce982e575ada0a22e9b0d3c928",
       "設定からスキルの表示を上書きする": "f725e72792f731414e64a6f9d035a3026abf0861",
@@ -52,12 +52,12 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-12"
+    "lastChanged": "2026-11-14"
   },
   "plugins": {
     "sections": {
       "（冒頭）": "911b42a8034be6bd5ef4203ba70458749fb0a251",
-      "プラグインとは何かを理解する": "c264034fc31425405c6c394e509383fd30350e03",
+      "プラグインとは何かを理解する": "be445d087d1c4d1fad7fd43cf4736f33d26d056d",
       "プラグインが必要かどうかを判断する": "387222b020854d84cce2abf553386fbcecd1d8fb",
       "有効なプラグインがセッションに追加するもの": "9ea0744d1a978fdef036154886d2ba339655ac9e",
       "マーケットプレイスからプラグインを取得する": "5bc938fd0c452f662e112718637f1433266a4eb0",
@@ -66,7 +66,7 @@
       "インストールスコープを理解する": "5b79f690414f3442d2313d4d3d6696decae04faf",
       "次のステップ": "a14acd10ddda9694ea6c52098e674c9fe864f40f"
     },
-    "lastChanged": "2026-11-03"
+    "lastChanged": "2026-11-14"
   },
   "mcp": {
     "sections": {
@@ -92,9 +92,9 @@
       "プラグインが提供する MCP サーバー": "b33b359bd28520f3466671179438583148194e16",
       "MCP インストールスコープ": "9be3e10d61a458dc64688815fa030a169211b587",
       "ローカルスコープ": "1a93da09dc458b48d8dae94be14228a2e1c759f6",
-      "プロジェクトスコープ": "938b1830a29d12838e15043dc52ac5cc3bee008f",
+      "プロジェクトスコープ": "7d0e3e2729dfc64ccf72c669da3a09307613b000",
       "ユーザースコープ": "6d4503654da1ec9bfe08717b3a30041d2fcca3ef",
-      "スコープの階層と優先順位": "f478be288729599d3898572689fdabb4cb1b15ce",
+      "スコープの階層と優先順位": "e81a8fe7a904a2522882ee686295417d65ae0974",
       ".mcp.json での環境変数の展開": "804ba3dc58e5f83b870740ce2cdb8394a3a0fccf",
       "実践的な例": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "例：コードレビューのために GitHub に接続する": "683b0467197fffd866dda9c18bdfbd2066ce4d91",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-10"
+    "lastChanged": "2026-11-14"
   },
   "settings": {
     "sections": {
@@ -173,23 +173,23 @@
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
       "フックがどのように解決されるか": "a922fbc2f68aa09bc5fcae96826e9dae52d5e87f",
       "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
-      "フック位置": "039b9b2ebd2322d3a70b8ad52d78041d0054e2f0",
+      "フック位置": "791bf3f4bdf69a84cfcce2191751b63ef2a96805",
       "Matcher パターン": "84ea808d86e42968131990d2bd70f7e8e7fb8057",
-      "フック ハンドラー フィールド": "33542a4a0b3661d7b2a11b392e59aaf35ad85740",
+      "フック ハンドラー フィールド": "91c5c98ed018425921a468e37ef3f55cdd2ed921",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
       "スキルとエージェントのフック": "c1d43960691555b9770c870f4aa6e6f8fee66e1d",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "2183a06c780f464c2309f4087632d634350dadaf",
+      "終了コード出力": "75a0eb691e9a66e53b57cddc42fe7c31ed06c7a6",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
       "JSON 出力": "434a320a87d986ae6f4dd9204ec6a3badec5e3aa",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "b35df0aa61447ccb0a238ce866013e0f73e474cf",
       "Setup": "bf45992235347a5334bb4179648d9890ad2b7136",
       "InstructionsLoaded": "47b7cbb80d549fbed435de6adc3e1cfe2beead9c",
-      "UserPromptSubmit": "bf6292f6e84ac99af573972462c592b0fa5aea42",
+      "UserPromptSubmit": "44b43c10a3b756dd364666220a4c3d764ca5db32",
       "UserPromptExpansion": "ce2340be6e542707a34459e312e7f579b545dc31",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
       "PreToolUse": "2a9d4f099900ba94602a07040cd05ff1d81bec6f",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-13"
+    "lastChanged": "2026-11-14"
   },
   "github-actions": {
     "sections": {
@@ -250,7 +250,7 @@
       "手動セットアップ": "e029dfc5335cd6d165d0ec8925159303522a4c49",
       "組織向けセットアップ": "5c7c63f48209cbec55e5529af273d6160557f5cc",
       "アンインストール": "adf1e3241546f7683a74a695b2d5894de201f998",
-      "GitHub App 権限": "36ffb7dcc87a61bc5aa947bedf464206f70a8798",
+      "GitHub App 権限": "f9834a38f0fe47dab2006c140bbe6b52ccef94dd",
       "インタラクティブモードと自動化モード": "cd7a5e851ec5ab1f8bd9da192e38723cc85d43f8",
       "実行をトリガーできるユーザー": "e9ea62a3f4793099475de9da45ca773ac58ee005",
       "使用例": "78c99574623144c9d4e3b5877373da71f5ca1e9c",
@@ -272,7 +272,7 @@
       "ベータ版からアップグレード": "df197d4eddbbb174ddcf9e10170c1c71cafe81fe",
       "次のステップ": "0e7265bfa2a35071be0424b4ebf62bf14825a51b"
     },
-    "lastChanged": "2026-11-10"
+    "lastChanged": "2026-11-14"
   },
   "routines": {
     "sections": {

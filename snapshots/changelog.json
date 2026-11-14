@@ -1,5 +1,106 @@
 [
   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "バンドルされたスキル",
+            "type": "changed"
+          },
+          {
+            "heading": "セッション中にスキルを編集する",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "プラグインとは何かを理解する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "プロジェクトスコープ",
+            "type": "changed"
+          },
+          {
+            "heading": "スコープの階層と優先順位",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック位置",
+            "type": "changed"
+          },
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "UserPromptSubmit",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "GitHub App 権限",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-14",
+    "kind": "diff",
+    "added": [
+      {
+        "name": "sap-ux-fiori-tools",
+        "type": "plugin-external"
+      },
+      {
+        "name": "theme-examples",
+        "type": "plugin-internal"
+      }
+    ],
+    "updated": [],
+    "removed": [
+      {
+        "name": "sap-fiori-mcp-server",
+        "type": "plugin-external"
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "kind": "docs",
     "docs": [
