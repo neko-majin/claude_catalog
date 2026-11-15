@@ -1,5 +1,93 @@
 [
   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "claude.ai から同期されたスキル",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルを呼び出せる対象を制御する",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルのツールを事前承認する",
+            "type": "changed"
+          },
+          {
+            "heading": "動的コンテキストを注入する",
+            "type": "changed"
+          },
+          {
+            "heading": "Environment",
+            "type": "changed"
+          },
+          {
+            "heading": "Claude のスキルへのアクセスを制限する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー上で実行される MCP タスク",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フックがどのように解決されるか",
+            "type": "changed"
+          },
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルとエージェントのフック",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          },
+          {
+            "heading": "Elicitation",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "kind": "docs",
     "docs": [

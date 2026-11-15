@@ -1,7 +1,7 @@
 {
   "skills": {
     "sections": {
-      "（冒頭）": "acba80b0a51181d51baebf39f77ae00c9439e55d",
+      "（冒頭）": "24df467880d941599dfe126021982fe6bb1dff26",
       "バンドルされたスキル": "d7f7660dfc7e2cd955cfee697b588c7db45e3a74",
       "/doctor でセットアップを確認する": "70da0a78711522eea18994fe56eb9facc7edba39",
       "アプリを実行して検証する": "b6d9a04c1ad1ee7dd19ed1e27a9cf933775a81a7",
@@ -16,7 +16,7 @@
       "プロジェクト外のディレクトリからスキルを読み込む": "da213d051d1af4a130d91fe6aef833d3b7783e62",
       "同じ名前のスキルを解決する": "506145fc9c03bdcefdad9432b1cf5503c40d294e",
       "Cowork とクラウドセッションでスキルを使う": "4c1e28f399601d5412b7030b78ec440d9fc0c34a",
-      "claude.ai から同期されたスキル": "4c76615cabb1e6971018b20c0474cccaecb90980",
+      "claude.ai から同期されたスキル": "af8bae3972706eb46e521d11f7f5d8c9a568bc1f",
       "セッション中にスキルを編集する": "8b65e3b71dafda9bf83c03af913e1f331c11813d",
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
       "スキルを設定する": "736d53a38da48487018efc12689aac2f5b551233",
@@ -24,17 +24,17 @@
       "フロントマターリファレンス": "fa0596590d8eddea4b2aa7be83562395607994a9",
       "サポートファイルを追加する": "fb17a9c7c49b76dee4b273b2d6ecfaed4a9e8dec",
       "Additional resources": "0d8bd976388ba9ead14d996e5bdad3f4e634546e",
-      "スキルを呼び出せる対象を制御する": "4458ffc7e4bfa725b3e57948b3c8a411361b1a63",
+      "スキルを呼び出せる対象を制御する": "8b74deee6be0baa12279a2fe1bac173ca64cda85",
       "スキルコンテンツのライフサイクル": "c356fbdc0988fd4f2e36d328216979efa933df7a",
-      "スキルのツールを事前承認する": "48d9caa9b1b20b0421eebe0a7726269b388e2d58",
+      "スキルのツールを事前承認する": "801e275a2dea3b739e8b9da2f4ed3f5d3cd4c3ff",
       "スキルに引数を渡す": "299e7696f960e21510aa5b999d8025f68d94e5ff",
       "高度なパターン": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-      "動的コンテキストを注入する": "19582289b04d55f45ad527618ca0750ab1a9c901",
+      "動的コンテキストを注入する": "b188aadb206a16841f09c4fd1515823810047901",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
-      "Environment": "15ec2107469e391fc6bfcf1a8c78d882a67fd26b",
+      "Environment": "559edde3eaffc3e2c609a156ec2d2d83c8e569f7",
       "サブエージェントでスキルを実行する": "a6cf88c385c660f0a3860771c9bf64bf59aa0003",
-      "Claude のスキルへのアクセスを制限する": "ab14fc37a3c9a2ce982e575ada0a22e9b0d3c928",
+      "Claude のスキルへのアクセスを制限する": "032e30846dec5ff7abfb328b74d017659f3c0492",
       "設定からスキルの表示を上書きする": "f725e72792f731414e64a6f9d035a3026abf0861",
       "使用されていないスキルを見つける": "ec7463463ad607ffa7d2b1620bcda16c587446f0",
       "スキルを評価して反復する": "587336db2e3542a3d91612575f3b1b0ececb0735",
@@ -52,7 +52,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-14"
+    "lastChanged": "2026-11-15"
   },
   "plugins": {
     "sections": {
@@ -79,7 +79,7 @@
       "オプション 3: ローカル stdio サーバーを追加する": "784afade81556e0fc5f9208b782deb578d6bc3d5",
       "オプション 4: リモート WebSocket サーバーを追加する": "d6c1873a384d2f690d58103f5e1425a9ae530d85",
       "別のクライアント向けのセットアップ手順からサーバーを追加する": "8e24b3058bb661f923c1edbf8ad1e5c7c1355ca7",
-      "サーバーの管理": "b7ab73fba367308a6c4d2e8c8678f9b3d6f61495",
+      "サーバーの管理": "7aafa3b773a90ff8b68c21347e79059a4985ef19",
       "サーバーを削除せずに無効にする": "50399b3036ca9322e4bfa29662c1a55c9cb52da9",
       "MCP クライアントランタイム": "9f2864bd4368409d439534933b6240442b438d53",
       "動的なツールの更新": "e39f71554c22559f657a85a4ae0f0812f11f068d",
@@ -87,7 +87,7 @@
       "チャネルでメッセージをプッシュする": "306ae7754fbe4b7081bb85fddc5d6f53acce0c9c",
       "MCP ツール呼び出しの時間制限": "55ce1c7fb24b2b3a65051bed8867a8b22e8e49aa",
       "長いツール呼び出しの自動バックグラウンド化": "4fe058d810e338b2bf2de68df7d2b11b8024ed4e",
-      "サーバー上で実行される MCP タスク": "b4dc6b67a57c8e27aabe698c74eb07ba4def410d",
+      "サーバー上で実行される MCP タスク": "ea7046b59e86b5724caa56dedb22d51cf13bf1c8",
       "サーバー作成者向けの MCP タスク": "611d88987582ed834304178c1a9ccc74d3e3f861",
       "プラグインが提供する MCP サーバー": "b33b359bd28520f3466671179438583148194e16",
       "MCP インストールスコープ": "9be3e10d61a458dc64688815fa030a169211b587",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-14"
+    "lastChanged": "2026-11-15"
   },
   "settings": {
     "sections": {
@@ -171,20 +171,20 @@
     "sections": {
       "（冒頭）": "c8d662867d685617c5ea8fd700244794b28c9046",
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
-      "フックがどのように解決されるか": "a922fbc2f68aa09bc5fcae96826e9dae52d5e87f",
+      "フックがどのように解決されるか": "5d06737e48d627cb358606393a75e7dbfac742ad",
       "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
       "フック位置": "791bf3f4bdf69a84cfcce2191751b63ef2a96805",
       "Matcher パターン": "84ea808d86e42968131990d2bd70f7e8e7fb8057",
-      "フック ハンドラー フィールド": "91c5c98ed018425921a468e37ef3f55cdd2ed921",
+      "フック ハンドラー フィールド": "5fa56b6712780b7c455c4c054c89a1afffd3c6bf",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
-      "スキルとエージェントのフック": "c1d43960691555b9770c870f4aa6e6f8fee66e1d",
+      "スキルとエージェントのフック": "495a9bf6ca95b99b89036706cfdfc6a42b399de7",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "75a0eb691e9a66e53b57cddc42fe7c31ed06c7a6",
+      "終了コード出力": "936e13f1a21e164bfc0d5b0f4ac353432b99932a",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
-      "JSON 出力": "434a320a87d986ae6f4dd9204ec6a3badec5e3aa",
+      "JSON 出力": "70a8b6820206f81f1279a6e6c096c00dd6d7dd4d",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "b35df0aa61447ccb0a238ce866013e0f73e474cf",
       "Setup": "bf45992235347a5334bb4179648d9890ad2b7136",
@@ -211,13 +211,13 @@
       "DirectoryAdded": "5f8d1c2ddb3f5854c16cdda20776ceb193798441",
       "FileChanged": "a3031b88163dfae681716a6dfcec0ccf45c0abab",
       "WorktreeCreate": "2e95245d2c36be57ff5e7847739984fad70f48f9",
-      "WorktreeRemove": "47b3954da3cf30a9327da1c10c9c0499e61eeee5",
+      "WorktreeRemove": "6f17a0837d93bdbdfc8aba22dc48286666a5157e",
       "PreCompact": "200a564fce443e23cc9eaf79275435a3087e218c",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
       "PreModelSwitch": "93d0f929d3a928a83085fc88f34ced0ea0a898ef",
       "PostModelSwitch": "dcdc21646c507da7413d5356a57486d90f57b315",
       "SessionEnd": "0f9580315c4581655bddd1d65ab9ea6923ae4041",
-      "Elicitation": "901b3391b02c76627e892c704bbc097a59e7dd5a",
+      "Elicitation": "b70ef49b7068b3c9c18223e3526221969e75546b",
       "ElicitationResult": "a5c1ea349ad079ab6ad97cc2940e50f53f753581",
       "プロンプト ベースのフック": "dea5651f692f26f56e69daa9da5b45c74009c639",
       "プロンプト ベースのフックの仕組み": "208445e4a15749732b21ab8da0c0348906999695",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-14"
+    "lastChanged": "2026-11-15"
   },
   "github-actions": {
     "sections": {
