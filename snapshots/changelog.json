@@ -1,5 +1,85 @@
 [
   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Cowork とクラウドセッションでスキルを使う",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "ルートレベルのコンビネータを持つツール入力スキーマ",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "Matcher パターン",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "UserPromptSubmit",
+            "type": "changed"
+          },
+          {
+            "heading": "UserPromptExpansion",
+            "type": "changed"
+          },
+          {
+            "heading": "Notification",
+            "type": "changed"
+          },
+          {
+            "heading": "TaskCompleted",
+            "type": "changed"
+          },
+          {
+            "heading": "StopFailure",
+            "type": "changed"
+          },
+          {
+            "heading": "TeammateIdle",
+            "type": "changed"
+          },
+          {
+            "heading": "Elicitation",
+            "type": "changed"
+          },
+          {
+            "heading": "プロンプト ベースのフック",
+            "type": "changed"
+          },
+          {
+            "heading": "レスポンス スキーマ",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "kind": "docs",
     "docs": [
