@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-11-18",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "チャネルでメッセージをプッシュする",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP 出力制限と警告",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP リソースを使用する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック位置",
+            "type": "changed"
+          },
+          {
+            "heading": "PermissionDenied",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "kind": "docs",
     "docs": [

@@ -84,7 +84,7 @@
       "MCP クライアントランタイム": "9f2864bd4368409d439534933b6240442b438d53",
       "動的なツールの更新": "e39f71554c22559f657a85a4ae0f0812f11f068d",
       "自動再接続": "0eb720ce481d3fb9ac55c1baaca0998b8f143ca2",
-      "チャネルでメッセージをプッシュする": "306ae7754fbe4b7081bb85fddc5d6f53acce0c9c",
+      "チャネルでメッセージをプッシュする": "0e4ca2593cf8f6c9a6329ac931d261e7af1fe2f8",
       "MCP ツール呼び出しの時間制限": "55ce1c7fb24b2b3a65051bed8867a8b22e8e49aa",
       "長いツール呼び出しの自動バックグラウンド化": "4fe058d810e338b2bf2de68df7d2b11b8024ed4e",
       "サーバー上で実行される MCP タスク": "ea7046b59e86b5724caa56dedb22d51cf13bf1c8",
@@ -116,7 +116,7 @@
       "claude.ai connector を無効にする": "3d76997c348caac0539486ba924451aa6cc18fa0",
       "Claude Code を MCP サーバーとして使用する": "3bef743a5123e55b4ef34cb8b5712ba2005168b8",
       "MCP クライアントとしてバックグラウンドコマンドの出力を読み取る": "56cc0a6263871b41e2f78f57e86120bd2da6b0e8",
-      "MCP 出力制限と警告": "554a9143b97f60b0f9be67f3e027891ad36b4eee",
+      "MCP 出力制限と警告": "b836ebd6549396b84d11bb04ae594d6b1654b80a",
       "特定のツールの制限を引き上げる": "28cab72a52e5794a3bac77ad64628cc06b762bd6",
       "ツール結果内の画像": "fc76766b65576b620404a2731078972ae340a0e9",
       "ルートレベルのコンビネータを持つツール入力スキーマ": "e5b27e3e5b2a00e049233db58f93f2c86e53593c",
@@ -128,7 +128,7 @@
       "MCP エリシテーション要求に応答する": "f40957332f90148e27355a948cfd8d141395f6dd",
       "クラウドセッションでエリシテーション要求に回答する": "2623249503187fdf448ff381a56c639cabe587f6",
       "Claude Code が宣言するエリシテーションモード": "c31a34b2425fe953d571ce24e3402d487dfed169",
-      "MCP リソースを使用する": "82d9b43ae4b950e4b00f9bb2a3acbcd1189c1a30",
+      "MCP リソースを使用する": "8ef1a65a2b3cdadbe428fa5aa2b8f5d55fea7a1a",
       "MCP リソースを参照する": "f6d2e3c17fad3b364816620b90ff4e768fe14785",
       "MCP ツール検索によるスケーリング": "53b5ca1ea28a11e2d304417bf113747659d299d4",
       "MCP サーバー作成者向けのツール検索": "048fbdb0e426607406c9baf920ab4cb06421df6a",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-17"
+    "lastChanged": "2026-11-18"
   },
   "settings": {
     "sections": {
@@ -173,7 +173,7 @@
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
       "フックがどのように解決されるか": "5d06737e48d627cb358606393a75e7dbfac742ad",
       "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
-      "フック位置": "791bf3f4bdf69a84cfcce2191751b63ef2a96805",
+      "フック位置": "97675279757f4e9d95955aad9b82943064a99e17",
       "Matcher パターン": "2a112aac318346344a5f9d0a93282fc0dc213c36",
       "フック ハンドラー フィールド": "5fa56b6712780b7c455c4c054c89a1afffd3c6bf",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
@@ -197,7 +197,7 @@
       "PostToolUse": "821dd9c60dd811611300f62033e69873e4f8838d",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
-      "PermissionDenied": "69535c8ee48622e2134867617fe7ee5bc5bf00e5",
+      "PermissionDenied": "599e766dce2eeb587081c61c2cabf8777c9cde85",
       "Notification": "c55f3d78affda9dafcb4433a778287a18ef83f26",
       "SubagentStart": "6f2cdd75a133ce6fb6c07d8eed584ac8f98f573f",
       "SubagentStop": "940fabfd9078c311823a1859e7817fea7da6860c",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-17"
+    "lastChanged": "2026-11-18"
   },
   "github-actions": {
     "sections": {
