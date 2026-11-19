@@ -83,11 +83,11 @@
       "サーバーを削除せずに無効にする": "50399b3036ca9322e4bfa29662c1a55c9cb52da9",
       "MCP クライアントランタイム": "9f2864bd4368409d439534933b6240442b438d53",
       "動的なツールの更新": "e39f71554c22559f657a85a4ae0f0812f11f068d",
-      "自動再接続": "0eb720ce481d3fb9ac55c1baaca0998b8f143ca2",
+      "自動再接続": "b2650d6c8710a19df1270f52c460127a0842f587",
       "チャネルでメッセージをプッシュする": "0e4ca2593cf8f6c9a6329ac931d261e7af1fe2f8",
       "MCP ツール呼び出しの時間制限": "55ce1c7fb24b2b3a65051bed8867a8b22e8e49aa",
-      "長いツール呼び出しの自動バックグラウンド化": "4fe058d810e338b2bf2de68df7d2b11b8024ed4e",
-      "サーバー上で実行される MCP タスク": "ea7046b59e86b5724caa56dedb22d51cf13bf1c8",
+      "長いツール呼び出しの自動バックグラウンド化": "515347fafa413333704784e3cfba1a2e17b1a7d9",
+      "サーバー上で実行される MCP タスク": "1b00f31d5eb15ddb922519e789574486000c674a",
       "サーバー作成者向けの MCP タスク": "611d88987582ed834304178c1a9ccc74d3e3f861",
       "プラグインが提供する MCP サーバー": "b33b359bd28520f3466671179438583148194e16",
       "MCP インストールスコープ": "9be3e10d61a458dc64688815fa030a169211b587",
@@ -108,11 +108,11 @@
       "認証プロキシの背後にあるサーバーで OAuth を使用する": "e0311f272ffdf33f0947189e763fb50a65e837d7",
       "カスタム認証に動的ヘッダーを使用する": "e6cdd913517b88ebc9cd3dec76c118d854105da9",
       "ヘッダーを必要とするゲートウェイの背後にある MCP サーバーにサインインする": "f44f79f06079f649c35941572bf28ffa9106ec34",
-      "JSON 設定から MCP サーバーを追加する": "e63396b414e60746553b46d28479b3225da8d6e7",
+      "JSON 設定から MCP サーバーを追加する": "c05d8060e9df53e9222d5ccd6a1c0760c582b12c",
       "Claude Desktop から MCP サーバーをインポートする": "6805edc0cfb6503078f4276f2491f57984d58e71",
       "claude.ai から MCP サーバーを使用する": "d4a227c81d113f7455f6af712727148cfd349833",
       "Connector が Claude Code に到達する方法": "91117bb71e590aee10bb5b35bb78525b49087ba3",
-      "Connector tools の組織コントロール": "8f8ff7f33d4d8b8e507ee99aec44f832a8f5b136",
+      "Connector tools の組織コントロール": "117112d66102ef573530415253ba9b655cdf0703",
       "claude.ai connector を無効にする": "3d76997c348caac0539486ba924451aa6cc18fa0",
       "Claude Code を MCP サーバーとして使用する": "3bef743a5123e55b4ef34cb8b5712ba2005168b8",
       "MCP クライアントとしてバックグラウンドコマンドの出力を読み取る": "56cc0a6263871b41e2f78f57e86120bd2da6b0e8",
@@ -123,7 +123,7 @@
       "無効な入力スキーマを持つツール": "09df39cbf0ee30af543a3ac9ef062696787a5713",
       "API が入力スキーマを拒否するツール": "72551eaa60bd753d731aa878432c7798097c61cc",
       "名前が 128 文字を超えるツール": "304e01b83a651dd94814c68662f4997450b4f18e",
-      "特定のツールに対して承認を要求する": "311fc34355b6de940db4bc648942f8bce17ac00b",
+      "特定のツールに対して承認を要求する": "426b001ba6a50d412d98f846c92b36b6e4fdd46e",
       "2 回呼び出しても安全なツールをマークする": "bc9924e103a1f712b3cf82c092a38cc618e0fd74",
       "MCP エリシテーション要求に応答する": "f40957332f90148e27355a948cfd8d141395f6dd",
       "クラウドセッションでエリシテーション要求に回答する": "2623249503187fdf448ff381a56c639cabe587f6",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-18"
+    "lastChanged": "2026-11-19"
   },
   "settings": {
     "sections": {
@@ -193,7 +193,7 @@
       "UserPromptExpansion": "7621234c349ea1adaaafec57a641b819bfd7bcd5",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
       "PreToolUse": "2a9d4f099900ba94602a07040cd05ff1d81bec6f",
-      "PermissionRequest": "546bc7034ab4a444016cbc322447c446601733f3",
+      "PermissionRequest": "ab1ecdc24f5209db9cd440283e6610f2abfff7c1",
       "PostToolUse": "821dd9c60dd811611300f62033e69873e4f8838d",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
@@ -211,7 +211,7 @@
       "DirectoryAdded": "5f8d1c2ddb3f5854c16cdda20776ceb193798441",
       "FileChanged": "a3031b88163dfae681716a6dfcec0ccf45c0abab",
       "WorktreeCreate": "2e95245d2c36be57ff5e7847739984fad70f48f9",
-      "WorktreeRemove": "6f17a0837d93bdbdfc8aba22dc48286666a5157e",
+      "WorktreeRemove": "7fdd90b8ab0242d997deda85d68a6ad26cf90673",
       "PreCompact": "200a564fce443e23cc9eaf79275435a3087e218c",
       "PostCompact": "25b06f213a1fdebd132f7c1c99a98e2b277eef9b",
       "PreModelSwitch": "93d0f929d3a928a83085fc88f34ced0ea0a898ef",
@@ -240,13 +240,13 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-18"
+    "lastChanged": "2026-11-19"
   },
   "github-actions": {
     "sections": {
       "（冒頭）": "f7fd105763e77c46fbb5cf4506a4d64417880ecf",
-      "セットアップ": "abcaccaa44a06222a2b37ca5d784bca23f3ec86e",
-      "クイックセットアップ": "e2e5c210bb380a676f7fb5b849de19f6ddfe6b38",
+      "セットアップ": "3d8fb1c39f042a0cb97242595f2cd318dc988774",
+      "クイックセットアップ": "8049c79b95d750910887d5d6226e22d054905674",
       "手動セットアップ": "e029dfc5335cd6d165d0ec8925159303522a4c49",
       "組織向けセットアップ": "5c7c63f48209cbec55e5529af273d6160557f5cc",
       "アンインストール": "adf1e3241546f7683a74a695b2d5894de201f998",
@@ -272,7 +272,7 @@
       "ベータ版からアップグレード": "df197d4eddbbb174ddcf9e10170c1c71cafe81fe",
       "次のステップ": "0e7265bfa2a35071be0424b4ebf62bf14825a51b"
     },
-    "lastChanged": "2026-11-14"
+    "lastChanged": "2026-11-19"
   },
   "routines": {
     "sections": {

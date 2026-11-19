@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "自動再接続",
+            "type": "changed"
+          },
+          {
+            "heading": "長いツール呼び出しの自動バックグラウンド化",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー上で実行される MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 設定から MCP サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "Connector tools の組織コントロール",
+            "type": "changed"
+          },
+          {
+            "heading": "特定のツールに対して承認を要求する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "PermissionRequest",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "セットアップ",
+            "type": "changed"
+          },
+          {
+            "heading": "クイックセットアップ",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "kind": "docs",
     "docs": [
