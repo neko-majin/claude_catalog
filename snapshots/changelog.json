@@ -1,5 +1,115 @@
 [
   {
+    "date": "2026-11-20",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "セッション中にスキルを編集する",
+            "type": "changed"
+          },
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルがトリガーされない",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "ルートレベルのコンビネータを持つツール入力スキーマ",
+            "type": "changed"
+          },
+          {
+            "heading": "無効な入力スキーマを持つツール",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "設定ファイルを見つけるか作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "/config メニューを使用する",
+            "type": "changed"
+          },
+          {
+            "heading": "クラウドセッションの設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "UserPromptSubmit",
+            "type": "changed"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "Stop",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          },
+          {
+            "heading": "ElicitationResult",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "github-actions",
+        "label": "GitHub Actions",
+        "changes": [
+          {
+            "heading": "クイックセットアップ",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "/schedule returns \"Unknown command\"",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "kind": "docs",
     "docs": [
