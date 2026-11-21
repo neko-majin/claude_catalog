@@ -1,5 +1,107 @@
 [
   {
+    "date": "2026-11-21",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "スキルの読み込み場所を選ぶ",
+            "type": "changed"
+          },
+          {
+            "heading": "Cowork とクラウドセッションでスキルを使う",
+            "type": "changed"
+          },
+          {
+            "heading": "Claude がスキルに従わなくなる",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "自動再接続",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー上で実行される MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー作成者向けの MCP タスク",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フックがどのように解決されるか",
+            "type": "changed"
+          },
+          {
+            "heading": "フック位置",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルとエージェントのフック",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "スケジュールタスクを作成する",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "theme-examples",
+        "type": "plugin-internal"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-11-20",
     "kind": "docs",
     "docs": [

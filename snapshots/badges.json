@@ -1,7 +1,6 @@
 {
-  "new": [
-    "plugin-external|sap-ux-fiori-tools",
+  "new": [],
+  "updated": [
     "plugin-internal|theme-examples"
-  ],
-  "updated": []
+  ]
 }

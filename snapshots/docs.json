@@ -11,11 +11,11 @@
       "最初のスキルを作成する": "0c6bceed38c7d5e5b864add8055264e9caa9f4f9",
       "Current changes": "c573c9a6d32a6cb854fa16af6ed0b7cce19068a7",
       "Instructions": "e681f5c53fbf61738456573aaa72fa61f0ba206f",
-      "スキルの読み込み場所を選ぶ": "f5561cf8428c24b35a3edf2f5d2a8cf159f05551",
+      "スキルの読み込み場所を選ぶ": "32d34fbd2eb64e88116abac55d57323ebe666da5",
       "モノレポとサブディレクトリでスキルを読み込む": "9552c720388caced9657e2e6ee922cb9fabe8e12",
       "プロジェクト外のディレクトリからスキルを読み込む": "da213d051d1af4a130d91fe6aef833d3b7783e62",
       "同じ名前のスキルを解決する": "506145fc9c03bdcefdad9432b1cf5503c40d294e",
-      "Cowork とクラウドセッションでスキルを使う": "1a200ac95a0fa6c59b911ea75b44387e51484330",
+      "Cowork とクラウドセッションでスキルを使う": "02874d7506551bb62fdee723e07a431f8ffa8366",
       "claude.ai から同期されたスキル": "af8bae3972706eb46e521d11f7f5d8c9a568bc1f",
       "セッション中にスキルを編集する": "f0346022af24743f98378404b17623fdb231224b",
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
@@ -46,13 +46,13 @@
       "トラブルシューティング": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "スキルがトリガーされない": "35bd618192e245e9e566d81ed83a9b56043ee387",
       "スキルが頻繁にトリガーされる": "c73ba82ce7a6f7865bf666b0fabc711de61e0fe6",
-      "Claude がスキルに従わなくなる": "ff8953506e95bc9a7b759b98ccf9c3e5d2ff9594",
+      "Claude がスキルに従わなくなる": "a8b5ac99392d11b02f7edd6347eba870d7b61a1b",
       "スキルの説明が短くカットされている": "a3da613835e4f00b2c0b3193870ba2510e9c730b",
       "スキルの説明の山括弧が &lt; と &gt; として表示される": "7906507850dc5f5592dff8b34d98712e4c6e5cd7",
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-20"
+    "lastChanged": "2026-11-21"
   },
   "plugins": {
     "sections": {
@@ -79,16 +79,16 @@
       "オプション 3: ローカル stdio サーバーを追加する": "784afade81556e0fc5f9208b782deb578d6bc3d5",
       "オプション 4: リモート WebSocket サーバーを追加する": "d6c1873a384d2f690d58103f5e1425a9ae530d85",
       "別のクライアント向けのセットアップ手順からサーバーを追加する": "8e24b3058bb661f923c1edbf8ad1e5c7c1355ca7",
-      "サーバーの管理": "7aafa3b773a90ff8b68c21347e79059a4985ef19",
+      "サーバーの管理": "3adba729efe2a0f247dcfb5ae687dc20017b4be3",
       "サーバーを削除せずに無効にする": "50399b3036ca9322e4bfa29662c1a55c9cb52da9",
       "MCP クライアントランタイム": "9f2864bd4368409d439534933b6240442b438d53",
       "動的なツールの更新": "e39f71554c22559f657a85a4ae0f0812f11f068d",
-      "自動再接続": "b2650d6c8710a19df1270f52c460127a0842f587",
+      "自動再接続": "ae6286c9cb09c89b0e2fd1244c0b6f9ca120bb3a",
       "チャネルでメッセージをプッシュする": "0e4ca2593cf8f6c9a6329ac931d261e7af1fe2f8",
       "MCP ツール呼び出しの時間制限": "55ce1c7fb24b2b3a65051bed8867a8b22e8e49aa",
       "長いツール呼び出しの自動バックグラウンド化": "515347fafa413333704784e3cfba1a2e17b1a7d9",
-      "サーバー上で実行される MCP タスク": "1b00f31d5eb15ddb922519e789574486000c674a",
-      "サーバー作成者向けの MCP タスク": "611d88987582ed834304178c1a9ccc74d3e3f861",
+      "サーバー上で実行される MCP タスク": "5d725c7545e400973f8b9a93e2d7f396f0842b2f",
+      "サーバー作成者向けの MCP タスク": "cbb1b056d0423f038c4c9af9556f61f6c272d348",
       "プラグインが提供する MCP サーバー": "b33b359bd28520f3466671179438583148194e16",
       "MCP インストールスコープ": "9be3e10d61a458dc64688815fa030a169211b587",
       "ローカルスコープ": "1a93da09dc458b48d8dae94be14228a2e1c759f6",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-20"
+    "lastChanged": "2026-11-21"
   },
   "settings": {
     "sections": {
@@ -171,20 +171,20 @@
     "sections": {
       "（冒頭）": "c8d662867d685617c5ea8fd700244794b28c9046",
       "フック ライフサイクル": "1cfb36e107241c904605f4d456b9879b5fd8eca4",
-      "フックがどのように解決されるか": "5d06737e48d627cb358606393a75e7dbfac742ad",
+      "フックがどのように解決されるか": "4a68c543c49337417f4332997b8ef1fe9df5d596",
       "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
-      "フック位置": "97675279757f4e9d95955aad9b82943064a99e17",
+      "フック位置": "7c87db3436422e0558a5e20c9e200318c5f8615b",
       "Matcher パターン": "2a112aac318346344a5f9d0a93282fc0dc213c36",
       "フック ハンドラー フィールド": "d8047c6ef64d23f571a4adabb9a021e2f4e64fa3",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
-      "スキルとエージェントのフック": "495a9bf6ca95b99b89036706cfdfc6a42b399de7",
+      "スキルとエージェントのフック": "0ca6923c4c9624271d8e3ede45c4f4bf5ff54357",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "a3cef1d3d22f18e750ce20480538d080ddceaf17",
+      "終了コード出力": "e71f3945d71ed53cc5460093871c4c0b80fc0f62",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
-      "JSON 出力": "a5398674f261cb58d8d80027b0986c50fd226a6d",
+      "JSON 出力": "c5ec002769b78d4783725882937ebfa71c0b4fcb",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "b35df0aa61447ccb0a238ce866013e0f73e474cf",
       "Setup": "bf45992235347a5334bb4179648d9890ad2b7136",
@@ -192,9 +192,9 @@
       "UserPromptSubmit": "3c661c47bce9f36688df1493a1d002668b02321b",
       "UserPromptExpansion": "7621234c349ea1adaaafec57a641b819bfd7bcd5",
       "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
-      "PreToolUse": "6cfbcffe6bd5c08bec99bfb3e01773cebfc006bf",
+      "PreToolUse": "cee84cbfc6b975226ff3c23f1b49d1cbe9e90b22",
       "PermissionRequest": "ab1ecdc24f5209db9cd440283e6610f2abfff7c1",
-      "PostToolUse": "821dd9c60dd811611300f62033e69873e4f8838d",
+      "PostToolUse": "a0c7d30aad963b71a4d49a2d8134b649820fd8e6",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
       "PermissionDenied": "599e766dce2eeb587081c61c2cabf8777c9cde85",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-20"
+    "lastChanged": "2026-11-21"
   },
   "github-actions": {
     "sections": {
@@ -278,7 +278,7 @@
     "sections": {
       "（冒頭）": "4b60eb187bb8564fe6cdae51af1890455e4d0f45",
       "ユースケースの例": "3c637a2d32995089d2034a2c6a075516692b4a4b",
-      "スケジュールタスクを作成する": "3c7230195cf83bca45afc74d58432d71bfe5f635",
+      "スケジュールタスクを作成する": "a8170da05c05dc65991819ccb15acdb4235f0db7",
       "Web から作成する": "6bd89298aab75dad6f9518ae487ab9e9297072de",
       "CLI から作成する": "6f2a5451513236f66d966dd5b5c6df5a76cac279",
       "トリガーを設定する": "8af1541f65899ec7cc07e1135651cec879ecdb87",
@@ -302,7 +302,7 @@
       "\"The last run\" の警告": "37d5240cd7fae30bb6da999b9489e0bae9de1897",
       "関連リソース": "fbdf159332f0a1f6e7830c076a23fa25153ac282"
     },
-    "lastChanged": "2026-11-20"
+    "lastChanged": "2026-11-21"
   },
   "slack": {
     "sections": {
