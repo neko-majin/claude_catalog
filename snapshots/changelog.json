@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-11-22",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "Notification",
+            "type": "changed"
+          },
+          {
+            "heading": "SubagentStart",
+            "type": "changed"
+          },
+          {
+            "heading": "SubagentStop",
+            "type": "changed"
+          },
+          {
+            "heading": "StopFailure",
+            "type": "changed"
+          },
+          {
+            "heading": "PostCompact",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "kind": "docs",
     "docs": [
