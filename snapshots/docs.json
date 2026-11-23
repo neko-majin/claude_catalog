@@ -15,7 +15,7 @@
       "モノレポとサブディレクトリでスキルを読み込む": "9552c720388caced9657e2e6ee922cb9fabe8e12",
       "プロジェクト外のディレクトリからスキルを読み込む": "da213d051d1af4a130d91fe6aef833d3b7783e62",
       "同じ名前のスキルを解決する": "506145fc9c03bdcefdad9432b1cf5503c40d294e",
-      "Cowork とクラウドセッションでスキルを使う": "02874d7506551bb62fdee723e07a431f8ffa8366",
+      "Cowork とクラウドセッションでスキルを使う": "47fba8a31657865233f11d663994b8f687a71ae8",
       "claude.ai から同期されたスキル": "af8bae3972706eb46e521d11f7f5d8c9a568bc1f",
       "セッション中にスキルを編集する": "f0346022af24743f98378404b17623fdb231224b",
       "スキルを削除する": "fc86b52a18db9cb6a340c2cf03d01ec82802e6f2",
@@ -52,7 +52,7 @@
       "個人スキルが消えた": "637e49a3637c1b6cf85833734899101131c5cc2f",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-21"
+    "lastChanged": "2026-11-23"
   },
   "plugins": {
     "sections": {
@@ -62,11 +62,11 @@
       "有効なプラグインがセッションに追加するもの": "9ea0744d1a978fdef036154886d2ba339655ac9e",
       "マーケットプレイスからプラグインを取得する": "5bc938fd0c452f662e112718637f1433266a4eb0",
       "インストール済みプラグインをセッションで利用可能にする": "524feccd41d32539cc46df1b60eea5cc7c1646c4",
-      "Anthropic のマーケットプレイスをサードパーティのマーケットプレイスから区別する": "dfbb9a9ade092628f8dcb521c0d59d05262cc8f5",
+      "Anthropic のマーケットプレイスをサードパーティのマーケットプレイスから区別する": "2dcc87589a73e4bd5c941914e0201c30f7a9c8dc",
       "インストールスコープを理解する": "5b79f690414f3442d2313d4d3d6696decae04faf",
       "次のステップ": "a14acd10ddda9694ea6c52098e674c9fe864f40f"
     },
-    "lastChanged": "2026-11-14"
+    "lastChanged": "2026-11-23"
   },
   "mcp": {
     "sections": {
@@ -94,7 +94,7 @@
       "ローカルスコープ": "1a93da09dc458b48d8dae94be14228a2e1c759f6",
       "プロジェクトスコープ": "7d0e3e2729dfc64ccf72c669da3a09307613b000",
       "ユーザースコープ": "6d4503654da1ec9bfe08717b3a30041d2fcca3ef",
-      "スコープの階層と優先順位": "e81a8fe7a904a2522882ee686295417d65ae0974",
+      "スコープの階層と優先順位": "f23c070bf2d7340f6bee4e3f38f5a1511c563052",
       ".mcp.json での環境変数の展開": "804ba3dc58e5f83b870740ce2cdb8394a3a0fccf",
       "実践的な例": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
       "例：コードレビューのために GitHub に接続する": "683b0467197fffd866dda9c18bdfbd2066ce4d91",
@@ -139,7 +139,7 @@
       "MCP プロンプトを実行する": "0d58abe2fb63d2d21c0e811eda6839a88fa5a4de",
       "管理対象 MCP 設定": "35d33dd2bad30aa3f683abe2575452f7f01de3f4"
     },
-    "lastChanged": "2026-11-21"
+    "lastChanged": "2026-11-23"
   },
   "settings": {
     "sections": {
@@ -153,7 +153,7 @@
       "設定を変更する": "013acdf4897ae7a9a7bf5a9124fe900d934a3c6b",
       "/config メニューを使用する": "8ccbcf5b2d6c30db9e5dda105ec270e0b20679a2",
       "設定ファイルを編集する": "75ead25b9fd5cee700877510f328792e9e4338f9",
-      "1 つのセッションの設定を変更する": "900002e24ca9f2b26844db4e41f118e3239ce59d",
+      "1 つのセッションの設定を変更する": "e62cfbdd17443436d9217c6d64a8161bffdc3eed",
       "編集がいつ有効になるか": "3c05747e3ffead69422b9b874e66fa009c40a052",
       "読み込まれたものを確認する": "b32bfdbf454be5d802543b090e25af5df3a40f0d",
       "壊れた設定ファイルを修正する": "f874bf48c3a9e21e4a0c98b6c2ed17d02c90cb20",
@@ -162,10 +162,10 @@
       "優先順位の例": "7415eb62f7777c71ddedc3a0cbc10b70a9b4ce39",
       "適用されない設定のトラブルシューティング": "f71ee5f87c95db371a19e829911395f6c701334c",
       "管理設定の優先順位の例外": "69e60aeeba56af0a70710cebc2ff5834fe240bb3",
-      "クラウドセッションの設定": "92098378f8e4ae9ffc8cbd79a707c770480e3aec",
+      "クラウドセッションの設定": "78eb5678548a1997fc531e47501fe60806ac9fa3",
       "次は何か": "d79934845ceb5e18d5c52a5bd18fa8c762777216"
     },
-    "lastChanged": "2026-11-20"
+    "lastChanged": "2026-11-23"
   },
   "hooks": {
     "sections": {
@@ -191,13 +191,13 @@
       "InstructionsLoaded": "47b7cbb80d549fbed435de6adc3e1cfe2beead9c",
       "UserPromptSubmit": "3c661c47bce9f36688df1493a1d002668b02321b",
       "UserPromptExpansion": "7621234c349ea1adaaafec57a641b819bfd7bcd5",
-      "MessageDisplay": "962582123056c654ece25b30cc72647f548892f4",
+      "MessageDisplay": "45913e19a6b33e36c77a4f00958d448f832db264",
       "PreToolUse": "cee84cbfc6b975226ff3c23f1b49d1cbe9e90b22",
       "PermissionRequest": "ab1ecdc24f5209db9cd440283e6610f2abfff7c1",
       "PostToolUse": "a0c7d30aad963b71a4d49a2d8134b649820fd8e6",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
       "PostToolBatch": "1262177ee712791c8616c68d387390290e5eb379",
-      "PermissionDenied": "599e766dce2eeb587081c61c2cabf8777c9cde85",
+      "PermissionDenied": "485cb0f54f899576591b88829ce2bcc5d3594e57",
       "Notification": "73b6aa9d7972864b9cb1e670b56bc5bdccec8ed6",
       "SubagentStart": "f7523270e20f68c0c30e6bcced508cafd97927d4",
       "SubagentStop": "40746a21e27969de968659a623c9b3450aacb7f4",
@@ -240,7 +240,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-22"
+    "lastChanged": "2026-11-23"
   },
   "github-actions": {
     "sections": {

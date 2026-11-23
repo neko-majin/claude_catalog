@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-11-23",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Cowork とクラウドセッションでスキルを使う",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "Anthropic のマーケットプレイスをサードパーティのマーケットプレイスから区別する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "スコープの階層と優先順位",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "1 つのセッションの設定を変更する",
+            "type": "changed"
+          },
+          {
+            "heading": "クラウドセッションの設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "MessageDisplay",
+            "type": "changed"
+          },
+          {
+            "heading": "PermissionDenied",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "kind": "docs",
     "docs": [
