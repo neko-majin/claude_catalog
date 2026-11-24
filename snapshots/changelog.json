@@ -1,5 +1,127 @@
 [
   {
+    "date": "2026-11-24",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "同じ名前のスキルを解決する",
+            "type": "changed"
+          },
+          {
+            "heading": "claude.ai から同期されたスキル",
+            "type": "changed"
+          },
+          {
+            "heading": "セッション中にスキルを編集する",
+            "type": "changed"
+          },
+          {
+            "heading": "What the visualization shows",
+            "type": "changed"
+          },
+          {
+            "heading": "個人スキルが消えた",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "マーケットプレイスからプラグインを取得する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "ローカルスコープ",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP エリシテーション要求に応答する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "1 つのセッションの設定を変更する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "Setup",
+            "type": "changed"
+          },
+          {
+            "heading": "PermissionRequest",
+            "type": "changed"
+          },
+          {
+            "heading": "PostToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "WorktreeRemove",
+            "type": "changed"
+          },
+          {
+            "heading": "Elicitation",
+            "type": "changed"
+          },
+          {
+            "heading": "レスポンス スキーマ",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "Web から作成する",
+            "type": "changed"
+          },
+          {
+            "heading": "環境とネットワークアクセス",
+            "type": "changed"
+          },
+          {
+            "heading": "ルーティンという名前が残っている場所",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "kind": "docs",
     "docs": [
