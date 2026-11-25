@@ -1,5 +1,385 @@
 [
   {
+    "date": "2026-11-25",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "claude.ai から同期されたスキル",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP サーバーからのスキル",
+            "type": "added"
+          },
+          {
+            "heading": "フロントマターリファレンス",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルに引数を渡す",
+            "type": "changed"
+          },
+          {
+            "heading": "Claude のスキルへのアクセスを制限する",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "plugins",
+        "label": "プラグイン",
+        "changes": [
+          {
+            "heading": "プラグインが必要かどうかを判断する",
+            "type": "changed"
+          },
+          {
+            "heading": "次のステップ",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "mcp",
+        "label": "MCP",
+        "changes": [
+          {
+            "heading": "オプション 1: リモート HTTP サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 2: リモート SSE サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 3: ローカル stdio サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "オプション 4: リモート WebSocket サーバーを追加する",
+            "type": "changed"
+          },
+          {
+            "heading": "別のクライアント向けに書かれたセットアップ手順からサーバーを追加する",
+            "type": "added"
+          },
+          {
+            "heading": "サーバーの管理",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバーを削除せずに無効にする",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP クライアントランタイム",
+            "type": "changed"
+          },
+          {
+            "heading": "ツールの動的な更新",
+            "type": "added"
+          },
+          {
+            "heading": "自動再接続",
+            "type": "changed"
+          },
+          {
+            "heading": "チャネルでメッセージをプッシュする",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP ツール呼び出しの時間制限",
+            "type": "changed"
+          },
+          {
+            "heading": "長いツール呼び出しの自動バックグラウンド化",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー上で実行される MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "サーバー作成者向けの MCP タスク",
+            "type": "changed"
+          },
+          {
+            "heading": "プラグインが提供する MCP サーバー",
+            "type": "changed"
+          },
+          {
+            "heading": "OAuth スコープを制限する",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP リソースを使用する",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP リソースを参照する",
+            "type": "changed"
+          },
+          {
+            "heading": "MCP サーバーのスキルを使用する",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルを名前で検索して呼び出す",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルの承認",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルのセキュリティスキャン",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルの利用条件",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルの制限",
+            "type": "added"
+          },
+          {
+            "heading": "組織で MCP スキルをオンにする",
+            "type": "added"
+          },
+          {
+            "heading": "MCP スキルのトラブルシューティング",
+            "type": "added"
+          },
+          {
+            "heading": "別のクライアント向けのセットアップ手順からサーバーを追加する",
+            "type": "removed"
+          },
+          {
+            "heading": "動的なツールの更新",
+            "type": "removed"
+          }
+        ]
+      },
+      {
+        "key": "settings",
+        "label": "設定",
+        "changes": [
+          {
+            "heading": "リポジトリから個人設定を除外する",
+            "type": "changed"
+          },
+          {
+            "heading": "壊れた設定ファイルを修正する",
+            "type": "changed"
+          },
+          {
+            "heading": "設定の優先順位",
+            "type": "changed"
+          },
+          {
+            "heading": "適用されない設定のトラブルシューティング",
+            "type": "changed"
+          },
+          {
+            "heading": "クラウドセッションの設定",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ライフサイクル",
+            "type": "changed"
+          },
+          {
+            "heading": "スキルとエージェントのフック",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "SessionStart",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "routines",
+        "label": "Routines",
+        "changes": [
+          {
+            "heading": "ユースケースの例",
+            "type": "changed"
+          },
+          {
+            "heading": "実行を表示して操作する",
+            "type": "changed"
+          },
+          {
+            "heading": "History の下に表示される警告",
+            "type": "added"
+          },
+          {
+            "heading": "\"The last run\" の警告",
+            "type": "removed"
+          }
+        ]
+      },
+      {
+        "key": "slack",
+        "label": "Slack",
+        "changes": [
+          {
+            "heading": "（冒頭）",
+            "type": "changed"
+          },
+          {
+            "heading": "ユースケース",
+            "type": "removed"
+          },
+          {
+            "heading": "前提条件",
+            "type": "removed"
+          },
+          {
+            "heading": "Slack での Claude Code のセットアップ",
+            "type": "removed"
+          },
+          {
+            "heading": "仕組み",
+            "type": "removed"
+          },
+          {
+            "heading": "自動検出",
+            "type": "removed"
+          },
+          {
+            "heading": "コンテキスト収集",
+            "type": "removed"
+          },
+          {
+            "heading": "セッションフロー",
+            "type": "removed"
+          },
+          {
+            "heading": "ユーザーインターフェース要素",
+            "type": "removed"
+          },
+          {
+            "heading": "メッセージアクション",
+            "type": "removed"
+          },
+          {
+            "heading": "リポジトリ選択",
+            "type": "removed"
+          },
+          {
+            "heading": "アクセスと権限",
+            "type": "removed"
+          },
+          {
+            "heading": "ユーザーレベルのアクセス",
+            "type": "removed"
+          },
+          {
+            "heading": "ワークスペースレベルのアクセス",
+            "type": "removed"
+          },
+          {
+            "heading": "チャネルベースのアクセス制御",
+            "type": "removed"
+          },
+          {
+            "heading": "どこでアクセスできるか",
+            "type": "removed"
+          },
+          {
+            "heading": "ベストプラクティス",
+            "type": "removed"
+          },
+          {
+            "heading": "効果的なリクエストの作成",
+            "type": "removed"
+          },
+          {
+            "heading": "Slack とウェブの使い分け",
+            "type": "removed"
+          },
+          {
+            "heading": "トラブルシューティング",
+            "type": "removed"
+          },
+          {
+            "heading": "\"This workspace isn't set up for Claude Tag yet\"",
+            "type": "removed"
+          },
+          {
+            "heading": "\"The legacy Claude in Slack bot is retired\"",
+            "type": "removed"
+          },
+          {
+            "heading": "\"Claude Code is not enabled for your account\"",
+            "type": "removed"
+          },
+          {
+            "heading": "セッションが開始しない",
+            "type": "removed"
+          },
+          {
+            "heading": "Claude Tag チャンネルからのセッションが開始に失敗する",
+            "type": "removed"
+          },
+          {
+            "heading": "リポジトリが表示されない",
+            "type": "removed"
+          },
+          {
+            "heading": "誤ったリポジトリが選択された",
+            "type": "removed"
+          },
+          {
+            "heading": "認証エラー",
+            "type": "removed"
+          },
+          {
+            "heading": "現在の制限事項",
+            "type": "removed"
+          },
+          {
+            "heading": "関連リソース",
+            "type": "removed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "kind": "diff",
+    "added": [],
+    "updated": [
+      {
+        "name": "bigquery-data-analytics",
+        "type": "plugin-external"
+      },
+      {
+        "name": "claude-security",
+        "type": "plugin-internal"
+      }
+    ],
+    "removed": []
+  },
+  {
     "date": "2026-11-24",
     "kind": "docs",
     "docs": [

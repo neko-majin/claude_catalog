@@ -1,6 +1,7 @@
 {
   "new": [],
   "updated": [
-    "plugin-internal|theme-examples"
+    "plugin-external|bigquery-data-analytics",
+    "plugin-internal|claude-security"
   ]
 }
