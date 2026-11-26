@@ -33,7 +33,7 @@
       "動的コンテキストを注入する": "b188aadb206a16841f09c4fd1515823810047901",
       "Pull request context": "e88e783daa5ee40674d77e2c9d3d8fd17ad885cb",
       "Your task": "8de8319f800ad1c547e2f4d7864c51fea2c1ffa0",
-      "Environment": "559edde3eaffc3e2c609a156ec2d2d83c8e569f7",
+      "Environment": "e7d90154ab70198cdb4c174d7aae9012552237ac",
       "サブエージェントでスキルを実行する": "a6cf88c385c660f0a3860771c9bf64bf59aa0003",
       "Claude のスキルへのアクセスを制限する": "4495429aca92674c5db5641e78d4b2be205e645e",
       "設定からスキルの表示を上書きする": "f725e72792f731414e64a6f9d035a3026abf0861",
@@ -53,7 +53,7 @@
       "個人スキルが消えた": "8fb70acf4083c79ed487b81eace3f0b5c3d79cee",
       "関連リソース": "57f83da42555be24a3f8a44ad5594df9f7cada89"
     },
-    "lastChanged": "2026-11-25"
+    "lastChanged": "2026-11-26"
   },
   "plugins": {
     "sections": {
@@ -179,29 +179,30 @@
   "hooks": {
     "sections": {
       "（冒頭）": "c8d662867d685617c5ea8fd700244794b28c9046",
-      "フック ライフサイクル": "34cf6428a708fd4f1b7ee01b0e893b78c8f3760a",
+      "フック ライフサイクル": "0d7ce910eefb9c2b4cf19c0a765adba66ea01f27",
       "フックがどのように解決されるか": "4a68c543c49337417f4332997b8ef1fe9df5d596",
       "設定": "3c917fee3fff4437bbd785bc1ff7c201e951c7e2",
       "フック位置": "7c87db3436422e0558a5e20c9e200318c5f8615b",
-      "Matcher パターン": "2a112aac318346344a5f9d0a93282fc0dc213c36",
-      "フック ハンドラー フィールド": "d8047c6ef64d23f571a4adabb9a021e2f4e64fa3",
+      "Matcher パターン": "152f1ca22e46d7464055d1c719e0434ade9b99f3",
+      "フック ハンドラー フィールド": "c5860bf1322eb7697196fbc822bae231c6b56e51",
       "パスでフック スクリプトを参照": "20b1593e8f92f0167a28706c42231f7c3e4b2d5c",
       "スキルとエージェントのフック": "d96f71a67f527ef2e1857b735b08d28c4895e49e",
       "/hooks メニュー": "021def84ee404b4dde673c4496092e9118f286aa",
       "フックを無効化または削除": "7b760869b64c142e4c44245ce93a24c9506b08a6",
       "フック入出力": "2a640677bf4d61e535b354c820943c0898bc977c",
       "共通入力フィールド": "e4bf569aadf6b160981323139b15523ce6c98439",
-      "終了コード出力": "8c98ca1ecbb47147ab6f430211100387e7475f36",
+      "終了コード出力": "9bba9963701970dbbc78cf3794b3d150a1a07210",
       "HTTP レスポンス処理": "080644d1a7d67bb52e7c497c2847f4435aa00ef7",
-      "JSON 出力": "7aee15f93f7088c073ca920cbc3793537a42729b",
+      "JSON 出力": "b833ef97efa7a1ea21ee67b51601256a9cba0c7e",
       "フックイベント": "9f560b7f0a958b6e7e72849f3f833433a0a5b809",
       "SessionStart": "d6cf83a59bbcedf23301b80a20b4842cf98cd080",
       "Setup": "9d36c7f961ee24f252019ffddf5defcb067abd8a",
       "InstructionsLoaded": "47b7cbb80d549fbed435de6adc3e1cfe2beead9c",
       "UserPromptSubmit": "3c661c47bce9f36688df1493a1d002668b02321b",
       "UserPromptExpansion": "7621234c349ea1adaaafec57a641b819bfd7bcd5",
+      "PreSkillShellCommand": "f085912e14f9418e68c6fe0fff61d09124eb39cf",
       "MessageDisplay": "45913e19a6b33e36c77a4f00958d448f832db264",
-      "PreToolUse": "cee84cbfc6b975226ff3c23f1b49d1cbe9e90b22",
+      "PreToolUse": "de17057ddce2c2cf9db5c34183d29a4071cd1247",
       "PermissionRequest": "927b2cf235026229f3765b2d30dd2be3d290f9e2",
       "PostToolUse": "e0e35b46e24f07a1ad4ff1c3016f452bda5110c2",
       "PostToolUseFailure": "484b362ab9664cbc63753ca903ea261fde8b5da2",
@@ -228,7 +229,7 @@
       "SessionEnd": "0f9580315c4581655bddd1d65ab9ea6923ae4041",
       "Elicitation": "98955b6267da4ac5936e408af3087c607715a48a",
       "ElicitationResult": "5b3fd9e8f683554797607a3a64db62a46823b89c",
-      "プロンプト ベースのフック": "3db2f061e5896e80af8bbdad576cb22cfe072a21",
+      "プロンプト ベースのフック": "476b8b5661269b8e0fc1f9dc8cae46d8645b6144",
       "プロンプト ベースのフックの仕組み": "208445e4a15749732b21ab8da0c0348906999695",
       "プロンプト フック設定": "2254b023876f2c71ce5d84c7961e75380c393d0e",
       "レスポンス スキーマ": "f6473850b87ce6618caf211577bd5c6852902268",
@@ -249,7 +250,7 @@
       "PowerShell フックでパスによってスクリプトを参照する": "3ab7f3df7bf48ae256bee65c6e7d8b8e61e542af",
       "フックをデバッグ": "d4760d003a58ca9272c38cb738785815488c3223"
     },
-    "lastChanged": "2026-11-25"
+    "lastChanged": "2026-11-26"
   },
   "github-actions": {
     "sections": {

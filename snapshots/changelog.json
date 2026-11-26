@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-26",
+    "kind": "docs",
+    "docs": [
+      {
+        "key": "skills",
+        "label": "スキル",
+        "changes": [
+          {
+            "heading": "Environment",
+            "type": "changed"
+          }
+        ]
+      },
+      {
+        "key": "hooks",
+        "label": "Hooks",
+        "changes": [
+          {
+            "heading": "フック ライフサイクル",
+            "type": "changed"
+          },
+          {
+            "heading": "Matcher パターン",
+            "type": "changed"
+          },
+          {
+            "heading": "フック ハンドラー フィールド",
+            "type": "changed"
+          },
+          {
+            "heading": "終了コード出力",
+            "type": "changed"
+          },
+          {
+            "heading": "JSON 出力",
+            "type": "changed"
+          },
+          {
+            "heading": "PreSkillShellCommand",
+            "type": "added"
+          },
+          {
+            "heading": "PreToolUse",
+            "type": "changed"
+          },
+          {
+            "heading": "プロンプト ベースのフック",
+            "type": "changed"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "kind": "docs",
     "docs": [
